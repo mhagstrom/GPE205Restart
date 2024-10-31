@@ -1,0 +1,213 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 130989 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62464
+Successfully changed project path to: D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19704] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 184989808 [EditorId] 184989808 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19704] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 184989808 [EditorId] 184989808 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 8.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/school/GPE205Fall24/Tank/newGPE205/FreshStart/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 Ti (ID=0x2203)
+    Vendor:   NVIDIA
+    VRAM:     22783 MB
+    Driver:   32.0.15.6590
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008121 seconds.
+- Loaded All Assemblies, in  0.422 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.294 seconds
+Domain Reload Profiling: 714ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (144ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (122ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (294ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (239ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (85ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Assertion failed on expression: '!isWriteTxn || s_CurrentSourceAssetTransaction->m_IsWriteTxn'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:ImportAsset (string)
+Thry.UnityFixer:CheckDrawingDll () (at Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs:209)
+Thry.OnCompileHandler:.cctor () (at Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs:255)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs line 209]
+
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at UnityEditor.AssetDatabase:ImportAsset <0x00094>
+	  at UnityEditor.AssetDatabase:ImportAsset <0x0001a>
+	  at Thry.UnityFixer:CheckDrawingDll <0x000f2>
+	  at Thry.OnCompileHandler:.cctor <0x00072>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x00069>
+	  at System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor <0x0003a>
+	  at UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes <0x008da>
+	  at <Module>:runtime_invoke_void_object <0x00087>
+=================================================================
+Received signal SIGSEGV
+Obtained 44 stack frames
+0x00007ff78ccc2b5a (Unity) core::hash_set<core::pair<core::basic_string<char,core::StringStorageDefault<char> > const ,ArtifactInfoBindings::ArtifactInfoDependency,1>,core::hash_pair<core::hash<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> >,ArtifactInfoBindings::ArtifactInfoDependency>,core::equal_pair<std::equal_to<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> >,ArtifactInfoBindings::ArtifactInfoDependency> >::operator=
+0x00007ff78e0d5cff (Unity) SourceAssetScanner::Refresh
+0x00007ff78e096974 (Unity) Scan
+0x00007ff78e0863f6 (Unity) ImportAtPathV2
+0x00007ff78e005f42 (Unity) AssetDatabase::ImportAtPath
+0x00007ff78c398101 (Unity) AssetDatabase_CUSTOM_ImportAsset
+0x0000024d8d050845 (Mono JIT Code) (wrapper managed-to-native) UnityEditor.AssetDatabase:ImportAsset (string,UnityEditor.ImportAssetOptions)
+0x0000024d8d05078b (Mono JIT Code) UnityEditor.AssetDatabase:ImportAsset (string)
+0x0000024d8d04e183 (Mono JIT Code) Thry.UnityFixer:CheckDrawingDll () (at D:/school/GPE205Fall24/Tank/newGPE205/FreshStart/Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs:210)
+0x0000024d8d046293 (Mono JIT Code) Thry.OnCompileHandler:.cctor () (at D:/school/GPE205Fall24/Tank/newGPE205/FreshStart/Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs:256)
+0x0000024d8d045cc5 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+0x00007ffc113e4c1e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ffc1131d254 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ffc11317ff9 (mono-2.0-bdwgc) mono_runtime_class_init_full (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:563)
+0x00007ffc1124de07 (mono-2.0-bdwgc) ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall.c:1292)
+0x00007ffc1127feec (mono-2.0-bdwgc) ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw (at C:/build/output/Unity-Technologies/mono/mono/metadata/icall-def.h:756)
+0x0000024d837b614a (Mono JIT Code) (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr)
+0x0000024d837b605b (Mono JIT Code) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+0x0000024d837b247b (Mono JIT Code) UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+0x0000024d80e2fcd8 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+0x00007ffc113e4c1e (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ffc1131d254 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ffc1131d3cc (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff78cc50c44 (Unity) scripting_method_invoke
+0x00007ff78cc2e9b4 (Unity) ScriptingInvocation::Invoke
+0x00007ff78cc295c5 (Unity) ScriptingInvocation::Invoke<void>
+0x00007ff78cd79a43 (Unity) Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes
+0x00007ff78cc234b8 (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff78cc19239 (Unity) MonoManager::FinalizeReload
+0x00007ff78e011eda (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff78dbbe19b (Unity) LoadUserAssemblies
+0x00007ff78e0bf96f (Unity) <lambda_e4c09a862f47a773e31babb76239f51f>::operator()
+0x00007ff78e0f9a52 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff78e0e59fe (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff78e0e762e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff78e0f7dfc (Unity) IOService::Run
+0x00007ff78e0cb95f (Unity) AssetImportWorkerClient::Run
+0x00007ff78e096847 (Unity) RunAssetImportWorkerClientV2
+0x00007ff78e0968cb (Unity) RunAssetImporterV2
+0x00007ff78d896fd1 (Unity) Application::InitializeProject
+0x00007ff78dd231b5 (Unity) WinMain
+0x00007ff78f10594e (Unity) __scrt_common_main_seh
+0x00007ffcb034257d (KERNEL32) BaseThreadInitThunk
+0x00007ffcb12eaf08 (ntdll) RtlUserThreadStart
+
