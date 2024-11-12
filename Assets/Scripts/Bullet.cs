@@ -10,7 +10,7 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] private int damage = 10;
     [SerializeField] private float velocity = 20;
-    [SerializeField] private int bulletLifetimeSecs = 10;
+    //[SerializeField] private int bulletLifetimeSecs = 10;
     [SerializeField] private GameObject bulletVFX;
     private Pawn _owner;
     
@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
     {
         _owner = firingowner;
         bulletrb.velocity = direction * velocity;
-        DestroyStrayBullet();
+        //DestroyStrayBullet();
     }
 
     private void OnCollisionEnter(Collision other)
@@ -33,6 +33,7 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject);
     }
     
+   /* move to shooter and adapt
     private void DestroyStrayBullet()
     {
         if (gameObject != null)
@@ -40,4 +41,5 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject, bulletLifetimeSecs);
         }
     }
+    */
 }

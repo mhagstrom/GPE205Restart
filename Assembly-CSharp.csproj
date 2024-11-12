@@ -1119,13 +1119,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Runtime.csproj">
-      <Project>{b61500a5-78bd-b6fd-f7ba-ff9ec4d38c76}</Project>
-      <Name>Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Poi.Tools.csproj">
       <Project>{0051acd0-465e-0848-49cb-22d89d005c8d}</Project>
       <Name>Poi.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="Runtime.csproj">
+      <Project>{b61500a5-78bd-b6fd-f7ba-ff9ec4d38c76}</Project>
+      <Name>Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="ThryAssemblyDefinition.csproj">
       <Project>{a426b85b-4628-f7ee-7ee7-2910917eb6b7}</Project>

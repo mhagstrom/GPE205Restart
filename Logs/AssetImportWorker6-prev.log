@@ -1,0 +1,2051 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 130989 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51192
+Successfully changed project path to: D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4384] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 118053773 [EditorId] 118053773 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4384] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 118053773 [EditorId] 118053773 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 9.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/school/GPE205Fall24/Tank/newGPE205/FreshStart/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 Ti (ID=0x2203)
+    Vendor:   NVIDIA
+    VRAM:     22783 MB
+    Driver:   32.0.15.6603
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011546 seconds.
+- Loaded All Assemblies, in  0.715 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (168ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (288ms)
+			TypeCache.Refresh (287ms)
+				TypeCache.ScanAssembly (275ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.598 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (192ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (598ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (169.0 KB). Loaded Objects now: 3763.
+Memory consumption went from 406.9 MB to 406.8 MB.
+Total: 8.742700 ms (FindLiveObjects: 0.868400 ms CreateObjectMapping: 0.209700 ms MarkObjects: 7.290200 ms  DeleteObjects: 0.371800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11085.070502 seconds.
+  path: Assets/_PoiyomiShaders/Presets/Color & Normals/AlphaOptions/MP_CenterFade.mat
+  artifactKey: Guid(c62e16dcbb7c663458f6e5a0b7c135e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Presets/Color & Normals/AlphaOptions/MP_CenterFade.mat using Guid(c62e16dcbb7c663458f6e5a0b7c135e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Failed to create material drawer ThryRGBAPacker with arguments 'R Hue Mask, G Brightness Mask, B Saturation Mask'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments 'R, G, B, A, 0'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments 'R, G, B, A, 0'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments 'R, G, B, A, 0'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments 'R, G, B, A, 0'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments '1, RGB Color, A Offset, 1'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments '1, Mask, Bias, 1'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments '1, Mask, Bias, 1'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments '1, RGB Color, A Mask, 1'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+Failed to create material drawer ThryRGBAPacker with arguments '1, RGB Color, A Mask, 1'
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogWarningFormat (string,object[])
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyDrawer (string,bool&)
+UnityEditor.MaterialPropertyHandler:GetShaderPropertyHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialPropertyHandler:GetHandler (UnityEngine.Shader,string)
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawers (UnityEngine.Object[])
+UnityEditor.MaterialEditor:ApplyMaterialPropertyDrawersFromNative (UnityEngine.Material)
+UnityEditor.ShaderUtil:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.MaterialEditor:GetMaterialProperties (UnityEngine.Object[])
+UnityEditor.Search.IndexerExtensions:MaterialShaderReferences (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+ -> (artifact id: '3eb4157b19a266419a775399144ae198') in 4.992030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.001249 seconds.
+  path: Assets/_PoiyomiShaders/Presets/SpecialFX/Pathing/MP_MazePath.mat
+  artifactKey: Guid(06edf4f598365194da02a2f88d978140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Presets/SpecialFX/Pathing/MP_MazePath.mat using Guid(06edf4f598365194da02a2f88d978140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75f67743912b81fb3bb24fd78e892821') in 2.512730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_PoiyomiShaders/Presets/Color & Normals/AlphaOptions/MP_A2C_Dithering.mat
+  artifactKey: Guid(876e0e5a05f7ef545a8b9f7ef7c9b8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Presets/Color & Normals/AlphaOptions/MP_A2C_Dithering.mat using Guid(876e0e5a05f7ef545a8b9f7ef7c9b8ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f0ce77bb70ee0b7855ce80b4d2bbf287') in 0.106069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBlending.cginc
+  artifactKey: Guid(4b77204a0028f804a873d6c111a13453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBlending.cginc using Guid(4b77204a0028f804a873d6c111a13453) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5454a834ceab4ecb9c21982aa738362e') in 0.008377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_Poicludes.cginc
+  artifactKey: Guid(a1ffb78a8d1d0534ead09d64e4ba14d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_Poicludes.cginc using Guid(a1ffb78a8d1d0534ead09d64e4ba14d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c182dac62b712ad5f9496334946df05') in 0.007367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fonts/T_DigitalBold_FONT.png
+  artifactKey: Guid(fa80ac020379e5047896d6c7551b216a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Textures/Fonts/T_DigitalBold_FONT.png using Guid(fa80ac020379e5047896d6c7551b216a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '594c1dc90ba5e3c7ad5e8c9684f76aa2') in 0.073088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiDebug.cginc
+  artifactKey: Guid(dbc4ce40ad3fd4b4697163e382488ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiDebug.cginc using Guid(dbc4ce40ad3fd4b4697163e382488ce1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1f55272c1f06b0d0fba594c5dbc1717') in 0.007874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiColors.cginc
+  artifactKey: Guid(f798bf99177b0494b91b6e2c134d1ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiColors.cginc using Guid(f798bf99177b0494b91b6e2c134d1ecf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fd03bcce5fcd51756e003a1da6627d1') in 0.008538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryFileBuilder.cs
+  artifactKey: Guid(e2d2cf739465a3b49aad32cfd86f0f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryFileBuilder.cs using Guid(e2d2cf739465a3b49aad32cfd86f0f83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af4e6ac104510375ee524a7f64eb1ef0') in 0.020858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGrab.cginc
+  artifactKey: Guid(805b20bfecdd38d42b11d4234fe29dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGrab.cginc using Guid(805b20bfecdd38d42b11d4234fe29dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f116e6b314b5f89dd640e00b8a0bc46d') in 0.012079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGlitter.cginc
+  artifactKey: Guid(5aab04a3fc6c0c147acc353ec6dd6130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGlitter.cginc using Guid(5aab04a3fc6c0c147acc353ec6dd6130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bb16452b8007da3e58ccde83adef9ab') in 0.007065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/TexturePackerConfig.cs
+  artifactKey: Guid(195c44f1432ff964199348089560920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/TexturePackerConfig.cs using Guid(195c44f1432ff964199348089560920c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f11dd7c147ee5431320630b5b79607e') in 0.007774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryEditor.cs
+  artifactKey: Guid(d0ba26704202cee44b1927fe3b60da4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryEditor.cs using Guid(d0ba26704202cee44b1927fe3b60da4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '745c7b746179a11913f9c863170d0af4') in 0.010375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFur.cginc
+  artifactKey: Guid(97ee25df78398024f8529628e7b83f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFur.cginc using Guid(97ee25df78398024f8529628e7b83f9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8833e63f20abab0dd4f7204fb4b057a') in 0.009639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFrag.cginc
+  artifactKey: Guid(f382ccade80ef23478e1bfc2033b3558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFrag.cginc using Guid(f382ccade80ef23478e1bfc2033b3558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b96d8e1d6d593cc0197dbeae45847c85') in 0.008118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/External/ReadMe.txt
+  artifactKey: Guid(633b43f8292e7bd4ca761c124e8b4544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/External/ReadMe.txt using Guid(633b43f8292e7bd4ca761c124e8b4544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9fac0538fba55c4de583e3a7fc1de50f') in 0.007507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/UploadAnchorOverrideSetter.cs
+  artifactKey: Guid(9d3f2f889ac34d2cb6bb8b679b706701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/UploadAnchorOverrideSetter.cs using Guid(9d3f2f889ac34d2cb6bb8b679b706701) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27ab3cdb83fa5844c1e6cfed2cf74fdf') in 0.007329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBulge.cginc
+  artifactKey: Guid(375d769e3421a0c46a1c07b480cb90ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBulge.cginc using Guid(375d769e3421a0c46a1c07b480cb90ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08b15498bf5746779a25a847a2fa6f5a') in 0.007028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiClearCoat.cginc
+  artifactKey: Guid(89c507fdc5104cd4cbab3429d080eae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiClearCoat.cginc using Guid(89c507fdc5104cd4cbab3429d080eae5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c1b7245637615d052542333bd281984') in 0.007205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGeomFur.cginc
+  artifactKey: Guid(7fae1ecaf77bab941a2b3fd30d68e1cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGeomFur.cginc using Guid(7fae1ecaf77bab941a2b3fd30d68e1cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3d280946ef975d825df9722f18b6a03') in 0.007341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiHelpers.cginc
+  artifactKey: Guid(e21350293a29ca54eafcd03b2fc25bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiHelpers.cginc using Guid(e21350293a29ca54eafcd03b2fc25bb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5afabcbebfea73909afa8f126e77151a') in 0.006329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFlipbook.cginc
+  artifactKey: Guid(b020bec52b785534c98a1865ceff33c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiFlipbook.cginc using Guid(b020bec52b785534c98a1865ceff33c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93290691c39d9b463a23764f5865be4c') in 0.006592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGeom.cginc
+  artifactKey: Guid(8448c818130ccad43935a0a3d6186fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiGeom.cginc using Guid(8448c818130ccad43935a0a3d6186fdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82824a6094385a46e8d234e5b4fdbf64') in 0.006826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBackFace.cginc
+  artifactKey: Guid(4f4a418d4b464c64ca33221f2e6e8cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBackFace.cginc using Guid(4f4a418d4b464c64ca33221f2e6e8cbb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80eb07e35c833e14ce7e013cbca21058') in 0.006902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Resources/thryEditor_link.png
+  artifactKey: Guid(e85fd0a0e4e4fea46bb3fdeab5c3fb07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Resources/thryEditor_link.png using Guid(e85fd0a0e4e4fea46bb3fdeab5c3fb07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7f33c87f6868cfbf8f3adcd336bfd584') in 0.017785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Examples/Example1.shader
+  artifactKey: Guid(8a38f752c293b5548b674637c2a6f99a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Examples/Example1.shader using Guid(8a38f752c293b5548b674637c2a6f99a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b8ef0adddae0b1662cabbfec2d7b3b6d') in 0.018142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Resources/decal_gizmo.png
+  artifactKey: Guid(0e2dd3366fa0a5b4ca3e51372cef0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Resources/decal_gizmo.png using Guid(0e2dd3366fa0a5b4ca3e51372cef0411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc4c07069736a5c4dd4c0c29a5095960') in 0.019060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBlackLight.cginc
+  artifactKey: Guid(b026a041cbf89ab41885a9800b6fae01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiBlackLight.cginc using Guid(b026a041cbf89ab41885a9800b6fae01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0d5a980fb4f43d0c76f2dec1a0e366c') in 0.009198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiAlphaToCoverage.cginc
+  artifactKey: Guid(6748073008081154589fb6cc65f5fa4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiAlphaToCoverage.cginc using Guid(6748073008081154589fb6cc65f5fa4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81b6e1e8d9f95f643dcb4af0fb985e43') in 0.009351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiIridescence.cginc
+  artifactKey: Guid(0b6492eb757fd864da77959d6807565e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiIridescence.cginc using Guid(0b6492eb757fd864da77959d6807565e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a04fd88652bff95a015600f5c63ad584') in 0.007030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiDissolve.cginc
+  artifactKey: Guid(d7299b35e8e79f9478287dfeb6ee98ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Includes/CGI_PoiDissolve.cginc using Guid(d7299b35e8e79f9478287dfeb6ee98ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc0b68e2ffdf29105f933982d0f7a88d') in 0.007568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/poi-tools/Editor/GradientFlood (8).cs
+  artifactKey: Guid(d47e3b8c6a19a8145bb62e0d933a9679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/poi-tools/Editor/GradientFlood (8).cs using Guid(d47e3b8c6a19a8145bb62e0d933a9679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '176602689cd2d7d0104c74ed22752eac') in 0.006829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Parser.cs
+  artifactKey: Guid(3b95745f9a604df4bbc5a00933f516d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Parser.cs using Guid(3b95745f9a604df4bbc5a00933f516d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c17e5c0685cb1d3c088438df5f7ada0') in 0.006453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/VRLM_PoiVertHullDomainFragSkeleton.asset
+  artifactKey: Guid(e97334b3aad115346b3730de71f9b94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/VRLM_PoiVertHullDomainFragSkeleton.asset using Guid(e97334b3aad115346b3730de71f9b94c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6522d352a4d19ad54bad9d5ea4e863a0') in 0.026474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Misc/T_Black.png
+  artifactKey: Guid(4ce40eff399b11a4fb5cddbc29ee2227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Textures/Misc/T_Black.png using Guid(4ce40eff399b11a4fb5cddbc29ee2227) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af3d5cdb2345fbe1fbc83d483337660d') in 0.015828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_PoiyomiShaders/Presets/Shading/Stylized Specular/PM_TwoLayerSpec.mat
+  artifactKey: Guid(cb35437f4ab29234db690b5f1dd22fb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Presets/Shading/Stylized Specular/PM_TwoLayerSpec.mat using Guid(cb35437f4ab29234db690b5f1dd22fb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00ca5539867834c5a7b0c5086fcb8935') in 4.139843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Pink.mat
+  artifactKey: Guid(5e88a93148f69984e968ecc92408960f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Pink.mat using Guid(5e88a93148f69984e968ecc92408960f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d6d448dff195b2f99103fbbea3a4c21') in 0.016279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Magenta.mat
+  artifactKey: Guid(4f8daeaadc7b77c42b2004245caa7f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/HDRP/Prototype_512x512_Magenta.mat using Guid(4f8daeaadc7b77c42b2004245caa7f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'baf013fc1439cd774d78b1200493c2d5') in 0.010005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat
+  artifactKey: Guid(aeee7071bea0a4c478b4fea5933c5f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_White.mat using Guid(aeee7071bea0a4c478b4fea5933c5f79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a34ea44d90c046a4529485557809905') in 0.020414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Glitter/VRLM_PoiGlitter.asset
+  artifactKey: Guid(4064ea730840a5d478e92b13b02cc0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Glitter/VRLM_PoiGlitter.asset using Guid(4064ea730840a5d478e92b13b02cc0aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19906c84f93e504313378826d21d31d8') in 0.007934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Details/VRLM_PoiDetails.asset
+  artifactKey: Guid(026aae78de33b444185dc631aad07608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Details/VRLM_PoiDetails.asset using Guid(026aae78de33b444185dc631aad07608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9d7df32632ba56dcbcc29ca7ff5f2a6') in 0.009410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_DepthBulge/VRLTC_PoiDepthBulge.poiTemplateCollection
+  artifactKey: Guid(e6e4696c94ff15c44a7e6d8d55313660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_DepthBulge/VRLTC_PoiDepthBulge.poiTemplateCollection using Guid(e6e4696c94ff15c44a7e6d8d55313660) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a4ed0155cf0c536660f9535a79051f4') in 0.018423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_FixedRimLighting/VRLM_PoiFixedRimLighting.asset
+  artifactKey: Guid(f89d06203af8e16489bd8bc5a48643f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_FixedRimLighting/VRLM_PoiFixedRimLighting.asset using Guid(f89d06203af8e16489bd8bc5a48643f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a0b837303f7a812ddc8b0f3a70182a4') in 0.007377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_DepthBulge/VRLM_PoiDepthBulge.asset
+  artifactKey: Guid(2b39ca163cdc5544793d775714022874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_DepthBulge/VRLM_PoiDepthBulge.asset using Guid(2b39ca163cdc5544793d775714022874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da8b699d8cab9c85fd67619eb59e15a8') in 0.007092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Emission/VRLTC_PoiEmission.poiTemplateCollection
+  artifactKey: Guid(e886f03f2c324ad42a9a8bea4c883146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Emission/VRLTC_PoiEmission.poiTemplateCollection using Guid(e886f03f2c324ad42a9a8bea4c883146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c1f0855516ae58dc0badada2a2c58e5') in 0.014439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_BackFace/VRLM_PoiBackface.asset
+  artifactKey: Guid(1e5f5acfca7186c42ad0956d45397b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_BackFace/VRLM_PoiBackface.asset using Guid(1e5f5acfca7186c42ad0956d45397b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f68d659a8863e59f631005eb7aad5c6') in 0.008907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Dissolve/VRLT_PoiDissolve.poiTemplateCollection
+  artifactKey: Guid(db6fb035c5b46e941b0b8ad192fa9aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Dissolve/VRLT_PoiDissolve.poiTemplateCollection using Guid(db6fb035c5b46e941b0b8ad192fa9aef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ea325f5bf1747b2a3ae24324823d79a') in 0.014448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Scripts/Editor/TPS_Setup.cs
+  artifactKey: Guid(96b529bd7b7a1c543895e6e665ca701d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Scripts/Editor/TPS_Setup.cs using Guid(96b529bd7b7a1c543895e6e665ca701d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11a3177271b64d50024e6660d7fe952a') in 0.006300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Carrot/carrot.fbx
+  artifactKey: Guid(7d59628a19e8d7540858fe7bea7511fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Carrot/carrot.fbx using Guid(7d59628a19e8d7540858fe7bea7511fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0532b9a36b0e5e1c400bb1f24d57a63') in 0.173081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/9.0/Pro/Poiyomi Pro World.shader
+  artifactKey: Guid(90930906fd2551a4eb4682f2ea790111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/9.0/Pro/Poiyomi Pro World.shader using Guid(90930906fd2551a4eb4682f2ea790111) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '82648bde7e0bfa7b6d7fa8fb72bfb370') in 0.221550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Stochastic/VRLT_PoiStochastic.poiTemplateCollection
+  artifactKey: Guid(1125eac614b15f543a1d9d56e954284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Stochastic/VRLT_PoiStochastic.poiTemplateCollection using Guid(1125eac614b15f543a1d9d56e954284d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccb6466d704f0594e821206d4b0e7129') in 0.011080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RenderingOptions/VRLTC_PoiRenderingOptions.poiTemplateCollection
+  artifactKey: Guid(ed47affb5a93a5f40a8062f9754c2dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RenderingOptions/VRLTC_PoiRenderingOptions.poiTemplateCollection using Guid(ed47affb5a93a5f40a8062f9754c2dd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6370fa6143b23a03d68a27dc44b4aa8') in 0.011989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Parallax/VRLT_PoiParallax.poiTemplateCollection
+  artifactKey: Guid(5421a815090ed5f46886e81054503dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Parallax/VRLT_PoiParallax.poiTemplateCollection using Guid(5421a815090ed5f46886e81054503dc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebb3e547b8c4f91524978243694b455a') in 0.023840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_StylizedAnisoSpecular/VRLM_PoiStylizedAnisoSpecular.asset
+  artifactKey: Guid(7a72b1acd760c1848b31ff719e6d6e6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_StylizedAnisoSpecular/VRLM_PoiStylizedAnisoSpecular.asset using Guid(7a72b1acd760c1848b31ff719e6d6e6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb7283c497bf05d077264e7cf79ae765') in 0.007557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Iridescence/VRLT_PoiIridescence.poiTemplateCollection
+  artifactKey: Guid(ddc9a6e94d474a54a8a4a4389108d81e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Iridescence/VRLT_PoiIridescence.poiTemplateCollection using Guid(ddc9a6e94d474a54a8a4a4389108d81e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5d4977aa387029a302e1ebfd1dd8fb27') in 0.014934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RenderingOptions/VRLM_PoiRenderingOptions.asset
+  artifactKey: Guid(d579766a4789fda4cb17f70f66ba2087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RenderingOptions/VRLM_PoiRenderingOptions.asset using Guid(d579766a4789fda4cb17f70f66ba2087) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d510f2f55f30c197a1145cec9174ae2') in 0.076867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RgbaMasking/VRLT_PoiRgbaMasking.poiTemplateCollection
+  artifactKey: Guid(e903e78c92ed15e4ebc33cc362c6ee75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_RgbaMasking/VRLT_PoiRgbaMasking.poiTemplateCollection using Guid(e903e78c92ed15e4ebc33cc362c6ee75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2caade3088d2d062b0570a7fd89ef252') in 0.021655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Matcap/VRLM_PoiMatcap.asset
+  artifactKey: Guid(3f43a4e8f8b031949b76535ca295e1c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Matcap/VRLM_PoiMatcap.asset using Guid(3f43a4e8f8b031949b76535ca295e1c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62483c23d8fbd90f4b203844546f27d3') in 0.009233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_PPAnimations/VRLT_PoiPPAnimations.poiTemplateCollection
+  artifactKey: Guid(1fa59a8489d3d8645a06835869bc9be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_PPAnimations/VRLT_PoiPPAnimations.poiTemplateCollection using Guid(1fa59a8489d3d8645a06835869bc9be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37524443c27c7cbbe3919e17a6b2a187') in 0.080938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_BlackLightMasking/VRLT_PoiBlackLightMasking.poiTemplateCollection
+  artifactKey: Guid(d62caea497d8b4744ada102ce55812e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_BlackLightMasking/VRLT_PoiBlackLightMasking.poiTemplateCollection using Guid(d62caea497d8b4744ada102ce55812e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7df1b3d7ef196ca781317ea05d494ed6') in 0.053081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Scripts/Editor/PenetratorSetup.cs
+  artifactKey: Guid(ae01426273797eb468285e6d7b4762f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Scripts/Editor/PenetratorSetup.cs using Guid(ae01426273797eb468285e6d7b4762f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd765ced22f53b6a30dd1ab922c9b9f6e') in 0.005993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Scripts/Runtime/ShapekeyConfig.cs
+  artifactKey: Guid(c450910d3be144c4826d8ac04a43b370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Scripts/Runtime/ShapekeyConfig.cs using Guid(c450910d3be144c4826d8ac04a43b370) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '68fa071f9036677345ff320036edba45') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/ThirdParty/RalivDynamicPenetrationSystem/RalivDPS_Functions.cginc
+  artifactKey: Guid(2b121a2cc25e5f94bbaf967f910f5391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/ThirdParty/RalivDynamicPenetrationSystem/RalivDPS_Functions.cginc using Guid(2b121a2cc25e5f94bbaf967f910f5391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c198024dbe845f7bc7acc1adf448cada') in 0.007436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_ShatterWave/VRLM_PoiShatterWave.asset
+  artifactKey: Guid(586a9055547ff6947b68211eb8739b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_ShatterWave/VRLM_PoiShatterWave.asset using Guid(586a9055547ff6947b68211eb8739b52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b48704dfd227b7aae406b96040ff30a') in 0.008723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/9.0/Pro/Poiyomi Pro Fur.shader
+  artifactKey: Guid(16fcb9946e59f7b429bca95b8ee69727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/9.0/Pro/Poiyomi Pro Fur.shader using Guid(16fcb9946e59f7b429bca95b8ee69727) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cd410732801855e0ac1185a55806276') in 0.161905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_MetaPass/VRLT_PoiFragmentProgramMeta.poiTemplate
+  artifactKey: Guid(c6d05ea7f9a76bd46bcd8453840fb2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_MetaPass/VRLT_PoiFragmentProgramMeta.poiTemplate using Guid(c6d05ea7f9a76bd46bcd8453840fb2fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a47fa77c6bd5849fe0be87e29c5a37be') in 0.009382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/poi-tools/Editor/PoiModulesToggles/PoiModulesTogglesSettingsObject.cs
+  artifactKey: Guid(19be8683611466a41a524073b96527a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/poi-tools/Editor/PoiModulesToggles/PoiModulesTogglesSettingsObject.cs using Guid(19be8683611466a41a524073b96527a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62ca89a249b88bec26357d1f30ce1dbb') in 0.006185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_GrabPass/VRLM_PoiPassGrabPass.asset
+  artifactKey: Guid(116970539aec41b4fba9ef90ce6ba5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_GrabPass/VRLM_PoiPassGrabPass.asset using Guid(116970539aec41b4fba9ef90ce6ba5f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c37b1dbb5aaba5e32ab379c6fd4312fc') in 0.006461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Razgriz_UDIMDiscard/VRLM_UDIMDiscard.asset
+  artifactKey: Guid(9517bd1cad1457744acd511156823aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Razgriz_UDIMDiscard/VRLM_UDIMDiscard.asset using Guid(9517bd1cad1457744acd511156823aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76e8a99fb2cd98aa6b138515008d085a') in 0.006634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_ShadowPass/VRLT_PoiFragmentProgramShadow.poiTemplate
+  artifactKey: Guid(8f322479ea35535428018ca139f41ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_ShadowPass/VRLT_PoiFragmentProgramShadow.poiTemplate using Guid(8f322479ea35535428018ca139f41ff9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c196f5da5e7a5e1d756b17af3166db4') in 0.009394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_SubsurfaceScattering/VRLTC_PoiSubsurfaceScattering.poiTemplateCollection
+  artifactKey: Guid(7748d4716d1dec044a51c4e73c40908d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_SubsurfaceScattering/VRLTC_PoiSubsurfaceScattering.poiTemplateCollection using Guid(7748d4716d1dec044a51c4e73c40908d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6bdb58a5154965efeb8c157dd3a2fdc') in 0.013639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Voronoi/VRLTC_PoiVoronoi.poiTemplateCollection
+  artifactKey: Guid(8a65023f21ee1904e82b3d86bd2549da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_Voronoi/VRLTC_PoiVoronoi.poiTemplateCollection using Guid(8a65023f21ee1904e82b3d86bd2549da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ea35c51a7218bbc1372c6dc54470186') in 0.018707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/NameTagMaterial 1.mat
+  artifactKey: Guid(e109fd1ae7cdabe4086b4e63fdeeacb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/NameTagMaterial 1.mat using Guid(e109fd1ae7cdabe4086b4e63fdeeacb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '967aaf531cf103c70a92ec26b5f5b8e3') in 0.014513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_ToonMetallic/VRLT_PoiToonMetallic.poiTemplateCollection
+  artifactKey: Guid(682a43eec08f9c9458cdb535e2ea1e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_ToonMetallic/VRLT_PoiToonMetallic.poiTemplateCollection using Guid(682a43eec08f9c9458cdb535e2ea1e33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '574578828b651978f32b7079f63299c8') in 0.013678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Scriptables/ModuleTemplate.cs
+  artifactKey: Guid(9d2d3cba893c01945836e28f34ef3502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Scriptables/ModuleTemplate.cs using Guid(9d2d3cba893c01945836e28f34ef3502) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cec6b33042def68ac26f1cf48a711c78') in 0.007488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/poi-tools/Resources/Poi/icon_link_pro.png
+  artifactKey: Guid(e5afc9f6ee88c964cbc59accc832fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/poi-tools/Resources/Poi/icon_link_pro.png using Guid(e5afc9f6ee88c964cbc59accc832fbbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dac88475192bffdea7b8111f31834e94') in 0.027769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Scriptables/Property.cs
+  artifactKey: Guid(a3ea212d65d0f404a839a2f2b0a99228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Scriptables/Property.cs using Guid(a3ea212d65d0f404a839a2f2b0a99228) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '942d535864f08d60ae0873b617107d02') in 0.008030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_UVModules/VRLM_PoiUVModifiers.asset
+  artifactKey: Guid(eca31a3b9b86b4b4d8ff5cff9f135f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_UVModules/VRLM_PoiUVModifiers.asset using Guid(eca31a3b9b86b4b4d8ff5cff9f135f36) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd58a394b35d3e5a274d7fb208ec417cf') in 0.007770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexColors/VRLM_PoiVertexColors.asset
+  artifactKey: Guid(4a4ba4e31a5f2294289339f643c597ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexColors/VRLM_PoiVertexColors.asset using Guid(4a4ba4e31a5f2294289339f643c597ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '648dad1f840dde379558e06ca5bca60c') in 0.007790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_OutlinePass/VRLT_PoiFragmentProgramOutline.poiTemplate
+  artifactKey: Guid(76ec1741da6f1084b969474e2ba3873f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_OutlinePass/VRLT_PoiFragmentProgramOutline.poiTemplate using Guid(76ec1741da6f1084b969474e2ba3873f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '996ab002b131c21854d077c5b28dc790') in 0.007094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexOptions/VRLT_PoiVertexOptions.poiTemplateCollection
+  artifactKey: Guid(7b8fd238b4e82df4da5991cabb25ca5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexOptions/VRLT_PoiVertexOptions.poiTemplateCollection using Guid(7b8fd238b4e82df4da5991cabb25ca5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '64f65244d007a8bd51332e0491fc23f9') in 0.012401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/ThryEditor/External/Editor/VRCAutoAnchor.cs
+  artifactKey: Guid(42ffc76e3ee84e928b3ff83036ec8c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/ThryEditor/External/Editor/VRCAutoAnchor.cs using Guid(42ffc76e3ee84e928b3ff83036ec8c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2fdfa3a60c1d67c69db88bcf652087e8') in 0.008660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_BasePass/VRLT_PoiFragmentProgramBase.poiTemplate
+  artifactKey: Guid(f54d51f65e140634aa87249deef0018b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_Passes_And_Programs/Poi_BasePass/VRLT_PoiFragmentProgramBase.poiTemplate using Guid(f54d51f65e140634aa87249deef0018b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1273e6aaeaf6b9d4bfaac622d7756acd') in 0.007911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/poi-tools/Resources/Poi/icon_link.png
+  artifactKey: Guid(bf576c4a5c9c7d6408d714bfc0779a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/poi-tools/Resources/Poi/icon_link.png using Guid(bf576c4a5c9c7d6408d714bfc0779a3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76d9c022ded54d5a5ca25e4d49580cee') in 0.015419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/poiyomi.png
+  artifactKey: Guid(0ed883f8f92c31f4d87de788be1e5ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/poiyomi.png using Guid(0ed883f8f92c31f4d87de788be1e5ab2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '611e639e9e28034a0b2559aff34b85ad') in 0.138625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/NameTagMaterial 2.mat
+  artifactKey: Guid(0620354c842555445a491b682a5576bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/NameTag/NameTagMaterial 2.mat using Guid(0620354c842555445a491b682a5576bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34666ccbcf4ca98a47b5b24fb012cb27') in 0.014287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Orange.mat
+  artifactKey: Guid(d1a5903867c8f0a4a8a94c3fe36dad11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Orange.mat using Guid(d1a5903867c8f0a4a8a94c3fe36dad11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c0d541ee93a7aa4afeaacf07ea52f18') in 0.009745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey1.mat
+  artifactKey: Guid(c181c23a6120fbe4aadd5bb53a58dd78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/Standard/Prototype_512x512_Grey1.mat using Guid(c181c23a6120fbe4aadd5bb53a58dd78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93ff73116f54f6791ffb77b96ee8049f') in 0.011298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Olive.mat
+  artifactKey: Guid(8521b32b7fcd7ae41acc48012ada9ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Thirdparty/Ciathyza/Gridbox Prototype Materials/Materials/URP/Prototype_512x512_Olive.mat using Guid(8521b32b7fcd7ae41acc48012ada9ec0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7aadf43462f33a1f2e58099f43b6af82') in 0.009048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/ranch_Base_color.png
+  artifactKey: Guid(5c3e3ddfe30e1a349897c666ccd1b292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/ranch_Base_color.png using Guid(5c3e3ddfe30e1a349897c666ccd1b292) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '08d8b882fe8c2e5ecbcf1d410af0dd9f') in 0.025463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiUVDistortion.cginc
+  artifactKey: Guid(b781c7822eb79cd4d94941b850ec86fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiUVDistortion.cginc using Guid(b781c7822eb79cd4d94941b850ec86fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97946afb58a60b490568834d5e6dedc2') in 0.006476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiEnvironmentalRimLighting.cginc
+  artifactKey: Guid(a1c11292ccd8b1d41887e0f69e6695dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiEnvironmentalRimLighting.cginc using Guid(a1c11292ccd8b1d41887e0f69e6695dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f0e2da57b329a8208a75fe1fa24f467') in 0.009382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDithering.cginc
+  artifactKey: Guid(07d19319226672d40891a9cf8095bb1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDithering.cginc using Guid(07d19319226672d40891a9cf8095bb1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '839295b3f52b63e32f57d0cb03b47e68') in 0.006159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSubsurfaceScattering.cginc
+  artifactKey: Guid(c86cb17bac1d3ae469535ac16b47fcf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSubsurfaceScattering.cginc using Guid(c86cb17bac1d3ae469535ac16b47fcf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fdc4208c54e4c5c56a0cea03a1e392cf') in 0.006737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSpecular.cginc
+  artifactKey: Guid(da46d1a0fb2f8cc48a64a10aabc5df20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSpecular.cginc using Guid(da46d1a0fb2f8cc48a64a10aabc5df20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8dfb18718b5fa4be1d37b06275da81eb') in 0.005608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiData.cginc
+  artifactKey: Guid(221d9e3fa8c8639449704bdb192dbc4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiData.cginc using Guid(221d9e3fa8c8639449704bdb192dbc4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '068ad1e2c0106869c4d2584e14c1a524') in 0.005150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/Notes.txt
+  artifactKey: Guid(572baf09485ff2d4b9e074da2bba81bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/Notes.txt using Guid(572baf09485ff2d4b9e074da2bba81bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a44dbce981f5505a14c7994ee4e5722f') in 0.006960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Shaders/PatchNotes.poi
+  artifactKey: Guid(0a60b55a96f35834fa99cd038e615790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Shaders/PatchNotes.poi using Guid(0a60b55a96f35834fa99cd038e615790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1beacae53e17f48c6dec6a902c528ef2') in 0.005117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiBRDF.cginc
+  artifactKey: Guid(0543f339ffab97d418a5577bd4cd049c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiBRDF.cginc using Guid(0543f339ffab97d418a5577bd4cd049c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '93c840a79f1480e7215f014fa0accb1f') in 0.007018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Roughness.png
+  artifactKey: Guid(e1682f1bc450ec24a8e5e6f14875768f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Roughness.png using Guid(e1682f1bc450ec24a8e5e6f14875768f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c9a05902efeb80d51fa33509cdbcadf7') in 0.031787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDepthColor.cginc
+  artifactKey: Guid(051133829be575149906a0cbe6572012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDepthColor.cginc using Guid(051133829be575149906a0cbe6572012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '794bf040b51dec3c20c662455734513a') in 0.007005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiClearCoat.cginc
+  artifactKey: Guid(05e2de0df0c3a8147a1f7989db8ebd19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiClearCoat.cginc using Guid(05e2de0df0c3a8147a1f7989db8ebd19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca6ca817cfe8756347a5da8a7d1c0f9b') in 0.005442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiGrab.cginc
+  artifactKey: Guid(31b4450700d5cc244853b4488e455231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiGrab.cginc using Guid(31b4450700d5cc244853b4488e455231) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8aafa92ef89700848545f72761060ca') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiBackFace.cginc
+  artifactKey: Guid(9ee086be5141bcb458615f8ad9f54d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiBackFace.cginc using Guid(9ee086be5141bcb458615f8ad9f54d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42694ff8f8640045533950a38b1b5458') in 0.007669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/ShatterWave2/PoiShatterHelpers.cginc
+  artifactKey: Guid(5bcdb4bafbb424d4c957bdde3305b07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/ShatterWave2/PoiShatterHelpers.cginc using Guid(5bcdb4bafbb424d4c957bdde3305b07c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98f578687d418c20a3143d5e90865bbc') in 0.007716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDecal.cginc
+  artifactKey: Guid(664de60cb14b4194ba278cf1f8d8cec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDecal.cginc using Guid(664de60cb14b4194ba278cf1f8d8cec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'feace3ae4fd7aa7715bf988abaa3064c') in 0.005825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowVert.cginc
+  artifactKey: Guid(85240e87020438747a5fa50f428e5cdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowVert.cginc using Guid(85240e87020438747a5fa50f428e5cdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1a86b6345f345711c8a6b77fce8937a') in 0.005163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Editor/Resources/TPS/TPS_Editor_Orifice.uxml
+  artifactKey: Guid(bb0c20cc54a28434da4ef960cdaf8e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Editor/Resources/TPS/TPS_Editor_Orifice.uxml using Guid(bb0c20cc54a28434da4ef960cdaf8e2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a08c18f3219e70436b013810f88480eb') in 0.024417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiMSDF.cginc
+  artifactKey: Guid(39347a84f5d044c4d917618f2cad9661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiMSDF.cginc using Guid(39347a84f5d044c4d917618f2cad9661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0af0e13426a468c6faabb99ba294cb82') in 0.006819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVoronoi.cginc
+  artifactKey: Guid(e434761b466d9634bb3659a0b8ec52b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVoronoi.cginc using Guid(e434761b466d9634bb3659a0b8ec52b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71ee2c52d4d3eae14992c0114529cf4f') in 0.005529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Normal.png
+  artifactKey: Guid(4fae0d8ab8a368b4d84949930aad9a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Normal.png using Guid(4fae0d8ab8a368b4d84949930aad9a0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '771237be4db671cb8d90e3011a95d1cd') in 0.028442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiAlphaToCoverage.cginc
+  artifactKey: Guid(89ff22574b0f92e49a4b10267d737637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiAlphaToCoverage.cginc using Guid(89ff22574b0f92e49a4b10267d737637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abdaf1153f373225e72ede1e3940d69e') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiTessellation.cginc
+  artifactKey: Guid(cb923a9217d969d40a045da0c480df7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiTessellation.cginc using Guid(cb923a9217d969d40a045da0c480df7e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '668e1d1101b9c994b48ae6a9c1a98d76') in 0.005741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiPass.cginc
+  artifactKey: Guid(fa1dff6cd1c9b9f4891de1a7c880523d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiPass.cginc using Guid(fa1dff6cd1c9b9f4891de1a7c880523d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c3a69185c7079ebe86b07d4336bd35a') in 0.004838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSpawnInFrag.cginc
+  artifactKey: Guid(7913db65c40101341a2f9d4c1b15f96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiSpawnInFrag.cginc using Guid(7913db65c40101341a2f9d4c1b15f96d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ebbc42defbfe323e1286bab3f1d3a91f') in 0.026056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDebug.cginc
+  artifactKey: Guid(1cc16395659ad2b4b886b2caaeb83829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDebug.cginc using Guid(1cc16395659ad2b4b886b2caaeb83829) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3657640b507e2a60200e81c183f9b8ed') in 0.007348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowFrag.cginc
+  artifactKey: Guid(6f029ac6c95637345af7f9fa039b835d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowFrag.cginc using Guid(6f029ac6c95637345af7f9fa039b835d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ff7496ac169921b0232180fea00b28ff') in 0.005091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiFrag.cginc
+  artifactKey: Guid(60cd78e9ddf39f8488c9f5574a8a5a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiFrag.cginc using Guid(60cd78e9ddf39f8488c9f5574a8a5a7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2ef9f7ab5566ace109ea00d3ef85e8c9') in 0.006529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVertexManipulations.cginc
+  artifactKey: Guid(8f221171da2883d41ab5a08dd1de9779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVertexManipulations.cginc using Guid(8f221171da2883d41ab5a08dd1de9779) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5331a238fa4c09183da235bc6679846d') in 0.007104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiGeom.cginc
+  artifactKey: Guid(0110416f419d6c1428eff564e8bba8a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiGeom.cginc using Guid(0110416f419d6c1428eff564e8bba8a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6a70bba42fafb33e44453620efeef68b') in 0.009378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_CRT.png
+  artifactKey: Guid(0f531a1eb6e4f4c42bb9d82c735a782b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_CRT.png using Guid(0f531a1eb6e4f4c42bb9d82c735a782b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ad4ad4604e65770544a6ab5d9966dd4') in 0.023969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/Migrator.cs
+  artifactKey: Guid(905f1d7d180a43f46900ed1f09f40b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/Migrator.cs using Guid(905f1d7d180a43f46900ed1f09f40b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd0d61aa7b307ff51771f244c3c9c93b') in 0.005619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/TemplateCollectionIcon.png
+  artifactKey: Guid(042b76953a4d1594f8f135d1d4344fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/TemplateCollectionIcon.png using Guid(042b76953a4d1594f8f135d1d4344fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8353e54e2dfa730df8ecfbe90ea3430') in 0.016557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_OLED.png
+  artifactKey: Guid(a465ce0e4a29c2c40b68dbc3b3741026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_OLED.png using Guid(a465ce0e4a29c2c40b68dbc3b3741026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4c0ffcc1fcb90dc5b165d23d7e00554') in 0.018318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiHelpers.cginc
+  artifactKey: Guid(4046024b56935044b9bb885280ad296d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiHelpers.cginc using Guid(4046024b56935044b9bb885280ad296d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e3b1f2e74b9ec4fbd28d8e683cd9de1') in 0.007343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSDownIcon.png
+  artifactKey: Guid(ddf86335c73fc33419982ffb07412e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSDownIcon.png using Guid(ddf86335c73fc33419982ffb07412e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ae101d2f51dbcc56359289726a7800c') in 0.021253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/Poi_Truchet/VRLT_PoiTruchet.poiTemplateCollection
+  artifactKey: Guid(e80027487f186264198feb58a73f8e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/Poi_Truchet/VRLT_PoiTruchet.poiTemplateCollection using Guid(e80027487f186264198feb58a73f8e1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38852896c1c6f57c43bb18e3080f0e8c') in 0.021886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiMacros.cginc
+  artifactKey: Guid(ad8c37b1d1291e44da5c6ec1a305cd8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiMacros.cginc using Guid(ad8c37b1d1291e44da5c6ec1a305cd8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df2cf436088b1d6cf39122a4d78d0e5d') in 0.007275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/ShaderModuleIcon.png
+  artifactKey: Guid(9451c1f11dba73b4ea6b13157202097d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/ShaderModuleIcon.png using Guid(9451c1f11dba73b4ea6b13157202097d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adcb1e1fdbf084a80cd5ef8db222d23e') in 0.019190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/AL_Modules/Poi_ALVolumeColor/VRLT_PoiALVolumeColor.poiTemplateCollection
+  artifactKey: Guid(64dc3c69662940d4b9ed9100e21beea8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/AL_Modules/Poi_ALVolumeColor/VRLT_PoiALVolumeColor.poiTemplateCollection using Guid(64dc3c69662940d4b9ed9100e21beea8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb6d2747f969cb3bd29880b17dfebd76') in 0.013991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/TextPopup.cs
+  artifactKey: Guid(b1bc7c24875ba994fbef21ccbc464432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/TextPopup.cs using Guid(b1bc7c24875ba994fbef21ccbc464432) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2afb1b3f52716f70d797564afb1e69f3') in 0.006734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Elements/InspectorList.cs
+  artifactKey: Guid(7e402c0aaa42fe944802ceaf7d55be05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Elements/InspectorList.cs using Guid(7e402c0aaa42fe944802ceaf7d55be05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9259d99c5674fed79e8cc0d39ce3bf46') in 0.009978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_IPS.png
+  artifactKey: Guid(395778ad026bd4b4e9e825c52f71e3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_IPS.png using Guid(395778ad026bd4b4e9e825c52f71e3db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e88c967941b23c201f42244eeea7a195') in 0.028169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Drawers/FunctionPropertyDrawer.cs
+  artifactKey: Guid(24f1782728098f349aee99d57e62f501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Drawers/FunctionPropertyDrawer.cs using Guid(24f1782728098f349aee99d57e62f501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '112a3713749475595d2507c421f89d2a') in 0.008763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiDragNDropLighting.cginc
+  artifactKey: Guid(929b21dd7eb613f47bc07ab065883762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiDragNDropLighting.cginc using Guid(929b21dd7eb613f47bc07ab065883762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf1d19bdc00d199bc0e5b0c1f92252b3') in 0.006400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_LCD.png
+  artifactKey: Guid(693451fbe00d3ed42844e3423d937768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Video/Textures/PIX_LCD.png using Guid(693451fbe00d3ed42844e3423d937768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa50ac78d194c2c0e08f5d239a1352bd') in 0.023925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/Poi_Truchet/VRLM_PoiTruchet.asset
+  artifactKey: Guid(c4fd319e47cec1c45a221ca15c8291fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/Poi_Truchet/VRLM_PoiTruchet.asset using Guid(c4fd319e47cec1c45a221ca15c8291fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb3b336560204b96eb4613404ef0d541') in 0.006609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/ModularShaderDebugger.cs
+  artifactKey: Guid(da3cfc39b3d4bbe45baa0af3e383d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Windows/ModularShaderDebugger.cs using Guid(da3cfc39b3d4bbe45baa0af3e383d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1af6db67c3f699c470110fb95cc0e1ec') in 0.006800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Elements/ModuleInspectorList.cs
+  artifactKey: Guid(f9210556d98393149bad9819fb127c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Editors/Elements/ModuleInspectorList.cs using Guid(f9210556d98393149bad9819fb127c5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f74758e359004922bf495a31ed73040a') in 0.013903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiParallax.cginc
+  artifactKey: Guid(3737980e09be8994e929a4a8aca17fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiParallax.cginc using Guid(3737980e09be8994e929a4a8aca17fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '011f380e9153cef68c03fe9ea28533a3') in 0.009878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowIncludes.cginc
+  artifactKey: Guid(388afdf5d08890a498d21c55347c0a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiShadowIncludes.cginc using Guid(388afdf5d08890a498d21c55347c0a2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1beb951e3b7d8f2e4975b529692f6c84') in 0.009767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Shaders/S_Poiyomi_Pro_GrabPass.shader
+  artifactKey: Guid(8c9fa15670553cb43b993d5f5df2bf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Shaders/S_Poiyomi_Pro_GrabPass.shader using Guid(8c9fa15670553cb43b993d5f5df2bf53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '016e262cee43b2bcb97d7cd37e85d885') in 0.074352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVert.cginc
+  artifactKey: Guid(c608d4e6f9b40dc4a854fca20604e6b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiVert.cginc using Guid(c608d4e6f9b40dc4a854fca20604e6b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa6f938087a01e8e46d5de2dcb4ada84') in 0.014634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiV2F.cginc
+  artifactKey: Guid(ef2c28e0e6cae3d49989341119faa165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiV2F.cginc using Guid(ef2c28e0e6cae3d49989341119faa165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ee9e4587fb42ef826c45659aafd518c') in 0.007170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiFun.cginc
+  artifactKey: Guid(f04ca200839efd84d96d09eb392df59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiFun.cginc using Guid(f04ca200839efd84d96d09eb392df59a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b79f0f91d613c7589bd43e3be150d244') in 0.006328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDefines.cginc
+  artifactKey: Guid(7c4268f3614d17d49ba4a6865bd104de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiDefines.cginc using Guid(7c4268f3614d17d49ba4a6865bd104de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1647a6cc11f23ef1f1373584cfe63290') in 0.006032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiShadowFrag.cginc
+  artifactKey: Guid(e264d11d61c3f6b4da7cf7ca0afeb2b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiShadowFrag.cginc using Guid(e264d11d61c3f6b4da7cf7ca0afeb2b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8be7b486abe41da750cd8b060e5fbef3') in 0.010295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/ModuleTemplatePropertyDrawer.uxml
+  artifactKey: Guid(5d04d7ad3a733a847af648f76ca1c0df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/ModuleTemplatePropertyDrawer.uxml using Guid(5d04d7ad3a733a847af648f76ca1c0df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bf59371b6dc02377fc988d1167f370fd') in 0.011037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiBackFace.cginc
+  artifactKey: Guid(37fd65337c99b524b884507d97cef692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiBackFace.cginc using Guid(37fd65337c99b524b884507d97cef692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0cc8b8d76082aa9d688647d2e36b5adf') in 0.006298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/PropertyView.uxml
+  artifactKey: Guid(c761d2a671477b545aeb468b02f489f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/PropertyView.uxml using Guid(c761d2a671477b545aeb468b02f489f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92d45f85a056042bd2e07cf3b04031d6') in 0.010800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiEmission.cginc
+  artifactKey: Guid(b2ab0ba2ff117394ba418d4628f23fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiEmission.cginc using Guid(b2ab0ba2ff117394ba418d4628f23fa5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d3ab5e8696e8d155c15b691528fdbf3') in 0.005513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiMatcap.cginc
+  artifactKey: Guid(323862fd98ce4bb489e5e9bb6976e7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiMatcap.cginc using Guid(323862fd98ce4bb489e5e9bb6976e7a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7584a4902ed0d198c6b98eb53b114aa5') in 0.004638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiHologram.cginc
+  artifactKey: Guid(722a892098d070942960b23bd10ae0a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiHologram.cginc using Guid(722a892098d070942960b23bd10ae0a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca9ea0cf9ae4dcd1803e5dd9afd42411') in 0.005838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiClearCoat.cginc
+  artifactKey: Guid(d63a2851b30d51149aeaeee381068ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiClearCoat.cginc using Guid(d63a2851b30d51149aeaeee381068ebc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c29755ac5c9b25f1b12d567cda157ccc') in 0.007412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDissolve.cginc
+  artifactKey: Guid(91375e0f3cd5b0c479c421a4f2a60725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDissolve.cginc using Guid(91375e0f3cd5b0c479c421a4f2a60725) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e2f7b32528fdaa494e0cfcb63bf448e5') in 0.004348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Editor/Resources/TPS/Components/RendererShapekeyBlendtreeContainer.uxml
+  artifactKey: Guid(c6d822141cf6a0f40a20ca0ea0c27d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/TPS/Editor/Resources/TPS/Components/RendererShapekeyBlendtreeContainer.uxml using Guid(c6d822141cf6a0f40a20ca0ea0c27d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b3e04e86600e9ae55fdc87ebdc3c88f') in 0.012276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDithering.cginc
+  artifactKey: Guid(8b779440542bc4e4ebf90e6dbc3ede82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDithering.cginc using Guid(8b779440542bc4e4ebf90e6dbc3ede82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f152f7aa0e032519d293232c8890494c') in 0.005493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/MigratorDark.uss
+  artifactKey: Guid(2cf58df884add3647ac3debfd8c7a464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/MigratorDark.uss using Guid(2cf58df884add3647ac3debfd8c7a464) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76ae8f852465188fd18919cc0dac2ac3') in 0.012218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/InspectorList.uss
+  artifactKey: Guid(64ffe53607b6800409b71c1d8647ba1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/InspectorList.uss using Guid(64ffe53607b6800409b71c1d8647ba1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85325010e52a3970fa71c9cec03b3902') in 0.014204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiRGBMask.cginc
+  artifactKey: Guid(5a887d6c0dfbbba48a780737a0351a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Pro/Includes/CGI_PoiRGBMask.cginc using Guid(5a887d6c0dfbbba48a780737a0351a55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcdcc6cc6cb3812a6e371435c6f886c8') in 0.005237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexColors/VRLT_PoiVertexColors.poiTemplateCollection
+  artifactKey: Guid(771b8b04098480640819e985e32fe9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_VertexColors/VRLT_PoiVertexColors.poiTemplateCollection using Guid(771b8b04098480640819e985e32fe9a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62e52a2f3d1ab638e2775d666f960cf7') in 0.013653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/LTCGI/VRLM_LTCGI.asset
+  artifactKey: Guid(bc1e9f74ebdbaaf439f73301d59c16aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/LTCGI/VRLM_LTCGI.asset using Guid(bc1e9f74ebdbaaf439f73301d59c16aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b17638e42f11c8f5befedbb9ff690710') in 0.032563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_Poicludes.cginc
+  artifactKey: Guid(13d25267a52e35b42a400164f5308ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_Poicludes.cginc using Guid(13d25267a52e35b42a400164f5308ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ccc058ad8eaa0b83a5275f9e55dbbe90') in 0.007251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiPass.cginc
+  artifactKey: Guid(56df84a93addae540995e4c5231ce307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiPass.cginc using Guid(56df84a93addae540995e4c5231ce307) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f54a692b60af08a081aeb04386e1edc') in 0.004857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiPathing.cginc
+  artifactKey: Guid(a2bfdcb9229741045991c71d6c2de82f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiPathing.cginc using Guid(a2bfdcb9229741045991c71d6c2de82f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63b295a31808e4103904b993ed01342f') in 0.007588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiSpecular.cginc
+  artifactKey: Guid(7d524a9f958280e4ca1b5f64f8b1e50b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiSpecular.cginc using Guid(7d524a9f958280e4ca1b5f64f8b1e50b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aceba3536b17795881b47802d961616e') in 0.006612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiTextureBlending.cginc
+  artifactKey: Guid(d23c5fcad4c581c47ad9c14ea07c3ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiTextureBlending.cginc using Guid(d23c5fcad4c581c47ad9c14ea07c3ab1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dfdb8b781c7f011df937b6e6cd21352') in 0.007705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiGrab.cginc
+  artifactKey: Guid(61e29504a29fbea4cbbe44f3107f4e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiGrab.cginc using Guid(61e29504a29fbea4cbbe44f3107f4e20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '353e1c655625a83f134850b18f59613e') in 0.006151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/VariablePropertyDrawer.uxml
+  artifactKey: Guid(a5e6dac95ccea2048b842c3887d1682c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/VariablePropertyDrawer.uxml using Guid(a5e6dac95ccea2048b842c3887d1682c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24b1129edc8121068e895c2eea4c935d') in 0.010611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiRefraction.cginc
+  artifactKey: Guid(3b42a5209d7a47440a5f7466b1dac531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiRefraction.cginc using Guid(3b42a5209d7a47440a5f7466b1dac531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0fdcfcedb90b764af1b8aa677ecc9cbe') in 0.005881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiIridescence.cginc
+  artifactKey: Guid(75516dbd4684805428795a1c132eaf63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiIridescence.cginc using Guid(75516dbd4684805428795a1c132eaf63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27dd421d603dcea8e59e4d7b450ee1f2') in 0.005849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiShadowIncludes.cginc
+  artifactKey: Guid(1e46f338a3c4bac43b616326ad55efae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiShadowIncludes.cginc using Guid(1e46f338a3c4bac43b616326ad55efae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2d07abdf69ddf0da20fe39d66bf4a61') in 0.005851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDecal.cginc
+  artifactKey: Guid(51060b62d3b15724e92fe9550e7e9391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDecal.cginc using Guid(51060b62d3b15724e92fe9550e7e9391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2bd520bd382f8eec9dfce6d91f9ed38f') in 0.008275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiVert.cginc
+  artifactKey: Guid(ff346a2a2e9500945a02a9c50e8feccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiVert.cginc using Guid(ff346a2a2e9500945a02a9c50e8feccf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd30dd29c29480c65f721bdafe8c93a4f') in 0.006070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/ModularShaderDebuggerStyle.uss
+  artifactKey: Guid(c7b327ad0411a9b4f9f38886919a6f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/MSSUIElements/ModularShaderDebuggerStyle.uss using Guid(c7b327ad0411a9b4f9f38886919a6f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de9c3485a48686df2cd228c41ba3f5fc') in 0.008104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDebug.cginc
+  artifactKey: Guid(351916214630cc448b0ee1e9c69d0de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiDebug.cginc using Guid(351916214630cc448b0ee1e9c69d0de4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a9f6bce7ce00a3a8252120f93ab2647e') in 0.016316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiRimLighting.cginc
+  artifactKey: Guid(8cc181529cb7e164eb0bc84365fc12a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/VoxelCubed/Includes/PoiRimLighting.cginc using Guid(8cc181529cb7e164eb0bc84365fc12a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bbcafe189a0f93a511a3953c7572b468') in 0.005541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_StatsOverlay/VRLM_PoiStatsOverlay.asset
+  artifactKey: Guid(30935ff7d770ce64089fad5d256845d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Poi_StatsOverlay/VRLM_PoiStatsOverlay.asset using Guid(30935ff7d770ce64089fad5d256845d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '214cd98ada2e2ebcf4162e6f24bc509f') in 0.008518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/VRLT_ExperimentalCategory.poiTemplate
+  artifactKey: Guid(300b75a2c33f1ec4994e5d2922149142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/ModularShader/Editor/Poi_FeatureModules/Experimental/VRLT_ExperimentalCategory.poiTemplate using Guid(300b75a2c33f1ec4994e5d2922149142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23483e3aea45843e7c0f008a3703c724') in 0.008254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.090816 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiRGBMask.cginc
+  artifactKey: Guid(17373df008bda724d88f0a5d5f96299b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiRGBMask.cginc using Guid(17373df008bda724d88f0a5d5f96299b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '66adbb794232bee312f2062e7f7b43a6') in 0.007489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiFlipbook.cginc
+  artifactKey: Guid(bc640e1037c35a549a2b3367efe4563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiFlipbook.cginc using Guid(bc640e1037c35a549a2b3367efe4563e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c42b39174124841ee193d0690387106') in 0.006122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiShadowFrag.cginc
+  artifactKey: Guid(b00e388b635889144a85434f7d9747e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiShadowFrag.cginc using Guid(b00e388b635889144a85434f7d9747e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9c5c317ae5c20186a8b66a1aa51ecc94') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiDragNDropLighting.cginc
+  artifactKey: Guid(b1c2ff5cc02c3dc428a5b629842d4d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiDragNDropLighting.cginc using Guid(b1c2ff5cc02c3dc428a5b629842d4d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd2af87a31a3a14bffbd476b44000d161') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiOutlineVert.cginc
+  artifactKey: Guid(bd3b68bfdcc9cb24aa10b4cc6b447572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiOutlineVert.cginc using Guid(bd3b68bfdcc9cb24aa10b4cc6b447572) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5486db87592042cfec51d0a32849b963') in 0.005913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiPassOutline.cginc
+  artifactKey: Guid(bf5af5e3b880bc44c942f56187887dc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiPassOutline.cginc using Guid(bf5af5e3b880bc44c942f56187887dc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f39baebd0d7ca7187a4ef211697b802') in 0.004906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiData.cginc
+  artifactKey: Guid(a045b25b0c6f7a14d92617f3adb89f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiData.cginc using Guid(a045b25b0c6f7a14d92617f3adb89f8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0827a864098000e1566a0992e512e6d9') in 0.005270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiShadowIncludes.cginc
+  artifactKey: Guid(2accc6aa74edc854ea1a4e9ae7e0d50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiShadowIncludes.cginc using Guid(2accc6aa74edc854ea1a4e9ae7e0d50c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '01aafc2524765062d8896dba6cd0808f') in 0.009192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiTessellation.cginc
+  artifactKey: Guid(39ea1c9d00c3fba41ac36d9204d7af35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiTessellation.cginc using Guid(39ea1c9d00c3fba41ac36d9204d7af35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa80c958ccf32487ea0ac6255cd1ae59') in 0.021506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiWireframe.cginc
+  artifactKey: Guid(76a781cfaa303314ba6102fabe3ff2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/Fur/Pro/Includes/CGI_PoiWireframe.cginc using Guid(76a781cfaa303314ba6102fabe3ff2e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94e09e796d9e07be4aad98728c240ebb') in 0.005377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/Poicludes.cginc
+  artifactKey: Guid(e627afcc59d20744191e9c16f68157ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/Poicludes.cginc using Guid(e627afcc59d20744191e9c16f68157ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '269c03a11b768eb76c8bb6c36e9deec6') in 0.004841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiMetal.cginc
+  artifactKey: Guid(8846817db36f515459b5bbb6a83b8fea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiMetal.cginc using Guid(8846817db36f515459b5bbb6a83b8fea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6efaacb02f8b87abbd6d01dd7978c85') in 0.004987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiParticlePass.cginc
+  artifactKey: Guid(7178b86448a50944e97378d3e6f4ade2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiParticlePass.cginc using Guid(7178b86448a50944e97378d3e6f4ade2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5bd86fab434f75400033d1a2d4906a17') in 0.006909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiClearCoat.cginc
+  artifactKey: Guid(bd79ef0bdcffc3c408f6526743865acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiClearCoat.cginc using Guid(bd79ef0bdcffc3c408f6526743865acf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88fd439f2ac12f5bbf2963ab8eb20eff') in 0.006970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiTouch.cginc
+  artifactKey: Guid(752ee284ed2a5f54893460881e53e619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiTouch.cginc using Guid(752ee284ed2a5f54893460881e53e619) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3e7cf28e3403ea94ca6f5203699ab813') in 0.005658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiEmission.cginc
+  artifactKey: Guid(3873d90815bcb9544bd9f7a82149bcb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiEmission.cginc using Guid(3873d90815bcb9544bd9f7a82149bcb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c328d3226f59f2ded3c9240ee19e27c3') in 0.008084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiPanosphere.cginc
+  artifactKey: Guid(b4539cf5f665abd48abf34625dc7e7f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_PoiyomiShaders/Shaders/7.3/Patreon/LocalParticles/Shaders/Includes/PoiPanosphere.cginc using Guid(b4539cf5f665abd48abf34625dc7e7f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e62d7e94620de7801ce1415e013ed0a') in 0.004117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 1263ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (822ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (140.6 KB). Loaded Objects now: 3768.
+Memory consumption went from 387.1 MB to 386.9 MB.
+Total: 8.531300 ms (FindLiveObjects: 1.050000 ms CreateObjectMapping: 0.247900 ms MarkObjects: 6.992300 ms  DeleteObjects: 0.239400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

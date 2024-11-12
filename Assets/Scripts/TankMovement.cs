@@ -29,6 +29,6 @@ public class TankMovement : Movement
 
     public override void Rotate(float horizontalInput)
     {
-        transform.Rotate(0, horizontalInput, 0);
+        transform.Rotate(0, horizontalInput * Time.deltaTime * _tankPawn.hullRotateSpeed, 0);
     }
 }

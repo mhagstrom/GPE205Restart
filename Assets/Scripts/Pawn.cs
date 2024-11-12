@@ -12,7 +12,7 @@ public abstract class Pawn : MonoBehaviour
     public float hullMoveSpeed;
     public float hullRotateSpeed;
     public float attackRate;
-    
+    public bool hearsNoise;
 
     public abstract void Awake();
     
@@ -22,7 +22,11 @@ public abstract class Pawn : MonoBehaviour
     
     public abstract void Shoot();
     
-    public abstract void Movement(float f);
+    public abstract void Move(float verticalInput);
+
+    public abstract void Rotate(float horizontalInput);
     
     public abstract void MakeNoise();
+
+    public abstract bool Hearing(NoiseMaker noise);
 }

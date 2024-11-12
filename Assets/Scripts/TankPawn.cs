@@ -49,16 +49,27 @@ public class TankPawn : Pawn
         _timeSinceLastAttack = 0;
     }
 
-    public override void Movement(float f)
+    public override void Move(float verticalInput)
     {
-        float verticalInput = Input.GetAxis("Vertical");
-        float horizontalInput = Input.GetAxis("Horizontal");
-        _movement.Move(verticalInput);
-        _movement.Rotate(horizontalInput);
+        movement.Move(verticalInput);
     }
 
+    public override void Rotate(float horizontalInput)
+    {
+        movement.Rotate(horizontalInput);
+    }
+    
     public override void MakeNoise()
     {
         
+    }
+    
+    public override bool Hearing(NoiseMaker noise)
+    {
+        if (Vector3.Distance(noise.transform.position, transform.position) < noise.volumeDistance)
+        {
+            return true;
+        }
+        return false;
     }
 }

@@ -4,13 +4,12 @@ using UnityEngine;
 using JetBrains.Annotations;
 public class PlayerController : Controller
 {
-    public Pawn playerPawn;
-    public AimCursor cursor;
+    //public AimCursor cursor;
     
-    public void TakeControl(Pawn pawn)
+    public void TakeControl(Pawn controlledPawn)
     {
-        playerPawn = pawn;
-        cursor = playerPawn.GetComponentInChildren<AimCursor>();
+        pawn = controlledPawn;
+        //cursor = controlledPawn.GetComponentInChildren<AimCursor>();
     }
     
     // Start is called before the first frame update
@@ -22,7 +21,7 @@ public class PlayerController : Controller
     // Update is called once per frame
     public override void Update()
     {
-        if (playerPawn == null) return;
+        if (pawn == null) return;
         ProcessInputs();
         
         base.Update();
@@ -32,7 +31,7 @@ public class PlayerController : Controller
     {
         base.ProcessInputs();
         
-        cursor.UpdateCursorPosition(Input.mousePosition);
+        //cursor.UpdateCursorPosition(Input.mousePosition);
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
 
@@ -41,11 +40,12 @@ public class PlayerController : Controller
             horizontalInput = -Input.GetAxis("Horizontal");
         }
 
-        playerPawn.Movement(verticalInput);
+        pawn.Move(verticalInput);
+        pawn.Rotate(horizontalInput);
         if (Input.GetMouseButtonDown(0))
         {
-            playerPawn.Shoot();
-            playerPawn.MakeNoise();
+            pawn.Shoot();
+            pawn.MakeNoise();
         }
     }
 }

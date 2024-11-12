@@ -68,8 +68,8 @@
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Helper.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\ThryFileBuilder.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\ThryEditor.cs" />
-    <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\TexturePackerConfig.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\EditorLocale.cs" />
+    <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\TexturePackerConfig.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\TexturePacker.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Localization.cs" />
     <Compile Include="Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\DecalTool.cs" />
