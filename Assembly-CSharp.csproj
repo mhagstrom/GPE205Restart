@@ -50,6 +50,7 @@
     <Compile Include="Assets\Scripts\Pawn.cs" />
     <Compile Include="Assets\Scripts\AIController.cs" />
     <Compile Include="Assets\Scripts\TankShooter.cs" />
+    <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\TankMovement.cs" />
     <Compile Include="Assets\Scripts\AimCursor.cs" />
     <Compile Include="Assets\Scripts\Bullet.cs" />

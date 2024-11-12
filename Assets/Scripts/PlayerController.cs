@@ -4,7 +4,7 @@ using UnityEngine;
 using JetBrains.Annotations;
 public class PlayerController : Controller
 {
-    //public AimCursor cursor;
+    public AimCursor cursor;
     
     public void TakeControl(Pawn controlledPawn)
     {
@@ -34,12 +34,25 @@ public class PlayerController : Controller
         //cursor.UpdateCursorPosition(Input.mousePosition);
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
-
+        cursor.UpdateCursorPosition(Input.mousePosition);
+        
         if (verticalInput < 0)
         {
             horizontalInput = -Input.GetAxis("Horizontal");
         }
 
+        void UpdateCursorPosition(Vector3 position)
+        {
+            Ray ray = Camera.main.ScreenPointToRay(position);
+
+            RaycastHit hit;
+
+            if(Physics.Raycast(ray, out hit, Mathf.Infinity, aimMask))
+            {
+                transform.position = hit.point;
+            }
+        }
+        
         pawn.Move(verticalInput);
         pawn.Rotate(horizontalInput);
         if (Input.GetMouseButtonDown(0))

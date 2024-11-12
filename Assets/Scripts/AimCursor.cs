@@ -22,18 +22,6 @@ public class AimCursor : MonoBehaviour
         //fill a new property block on the aimSphere object to interact with
     }
     
-    public void UpdateCursorPosition(Vector3 position)
-    {
-        Ray ray = Camera.main.ScreenPointToRay(position);
-
-        RaycastHit hit;
-
-        if(Physics.Raycast(ray, out hit, Mathf.Infinity, aimMask))
-        {
-            transform.position = hit.point;
-        }
-    }
-    
     //colorchange of aimsphere stopped working with updates to turret and guntube rotations, not sure why yet, probably because the guntube rotation hasn't been fixed yet so it's not aligning vertically
     //set the color of the aimSphere to red if the player is aiming at an enemy based on the show bool
     public void ShowTargetLock(bool show)

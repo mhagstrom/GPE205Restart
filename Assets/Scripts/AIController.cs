@@ -11,7 +11,7 @@ public class AIController : Controller
     {
         AllNoiseMakers = Component.FindObjectsOfType<NoiseMaker>();
         Debug.Log(AllNoiseMakers);
-
+        
         // Run the parent (base) Start
         base.Start();
     }

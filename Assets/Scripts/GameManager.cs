@@ -6,19 +6,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
+    public static GameManager Instance;
     public GameObject playerOneCamera;
 
     public List<PlayerController> Players;
-    //first spawn point in list is for player one
-    public List<Transform> spawnPoints;
     
     
     private void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -30,28 +28,15 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        SpawnPlayerOne();
-        SpawnEnemies();
-
+        SpawnAll();
     }
 
-    public void SpawnPlayerOne()
+    private void SpawnAll()
     {
-        GameObject newPlayerObj = Instantiate(playerControllerPrefab, Vector3.zero, Quaternion.identity) as GameObject;
-        GameObject playerTankPrefab = Instantiate(playerTankPawnPrefab, spawnPoints[0].position, spawnPoints[0].rotation) as GameObject;
-        PlayerController newPlayerController = newPlayerObj.GetComponent<PlayerController>();
-        TankPawn newTankPawn = playerTankPrefab.GetComponent<TankPawn>();
-        newPlayerController.TakeControl(newTankPawn);
-    }
-
-    private void SpawnEnemies()
-    {
-        //first spawn point is for player one
-        foreach (var spawnPoint in spawnPoints.Skip(1))
+        foreach (var spawner in Component.FindObjectsOfType<Spawner>())
         {
-            GameObject enemyTankPrefab = Instantiate(enemyTankPawnPrefab, spawnPoint.position, spawnPoint.rotation);
+            spawner.Spawn();
         }
-        
     }
     
     #region InstatiatingPrefabs
