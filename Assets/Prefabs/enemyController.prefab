@@ -44,3 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a568f1206fc4a4243947dd9fc2c1bffc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pawn: {fileID: 0}
+  AllNoiseMakers: []
+  viewDistance: 42
+  viewAngle: 90

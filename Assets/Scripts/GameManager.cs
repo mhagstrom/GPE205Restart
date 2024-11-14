@@ -7,10 +7,10 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public GameObject playerOneCamera;
 
     public List<PlayerController> Players;
     
+    public Camera mainCamera;
     
     private void Awake()
     {
@@ -23,6 +23,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
+        mainCamera = Camera.main;
     }
 
     // Start is called before the first frame update

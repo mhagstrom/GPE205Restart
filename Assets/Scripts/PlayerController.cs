@@ -4,12 +4,13 @@ using UnityEngine;
 using JetBrains.Annotations;
 public class PlayerController : Controller
 {
-    public AimCursor cursor;
-    
+    //we need to get the camera mount from the tank prefab that we are controlling
     public void TakeControl(Pawn controlledPawn)
     {
         pawn = controlledPawn;
-        //cursor = controlledPawn.GetComponentInChildren<AimCursor>();
+        GameManager.Instance.mainCamera.transform.SetParent(pawn.cameraMount);
+        GameManager.Instance.mainCamera.transform.localPosition = Vector3.zero;
+        GameManager.Instance.mainCamera.transform.localRotation = Quaternion.identity;
     }
     
     // Start is called before the first frame update
@@ -31,26 +32,12 @@ public class PlayerController : Controller
     {
         base.ProcessInputs();
         
-        //cursor.UpdateCursorPosition(Input.mousePosition);
         float verticalInput = Input.GetAxis("Vertical");
         float horizontalInput = Input.GetAxis("Horizontal");
-        cursor.UpdateCursorPosition(Input.mousePosition);
         
         if (verticalInput < 0)
         {
             horizontalInput = -Input.GetAxis("Horizontal");
-        }
-
-        void UpdateCursorPosition(Vector3 position)
-        {
-            Ray ray = Camera.main.ScreenPointToRay(position);
-
-            RaycastHit hit;
-
-            if(Physics.Raycast(ray, out hit, Mathf.Infinity, aimMask))
-            {
-                transform.position = hit.point;
-            }
         }
         
         pawn.Move(verticalInput);
@@ -58,7 +45,6 @@ public class PlayerController : Controller
         if (Input.GetMouseButtonDown(0))
         {
             pawn.Shoot();
-            pawn.MakeNoise();
         }
     }
 }

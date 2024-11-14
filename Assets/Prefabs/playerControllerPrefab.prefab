@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651823f99ac3a66488457f2089dc047a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pawn: {fileID: 0}
+  singlePlayerCamera: {fileID: 6629452814577343713, guid: fb7407c4730f60947a1b9b37413d6a1d, type: 3}
+  cameraMount: {fileID: 0}

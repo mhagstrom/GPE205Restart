@@ -14,6 +14,13 @@ public class Spawner : MonoBehaviour
         Controller controllerInstance = pawnInstance.gameObject.AddComponent(controller.GetType()) as Controller;
         // ! is used to tell the compiler trust me bro, I just made the controller
         controllerInstance!.pawn = pawnInstance;
+        
+        if (controllerInstance is PlayerController)
+        {
+            //cast to type
+            PlayerController playerController = controllerInstance as PlayerController;
+            playerController.TakeControl(pawnInstance);
+        }
         return controllerInstance;
     }
 }

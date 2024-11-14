@@ -13,6 +13,7 @@ public abstract class Pawn : MonoBehaviour
     public float hullRotateSpeed;
     public float attackRate;
     public bool hearsNoise;
+    public Transform cameraMount;
 
     public abstract void Awake();
     

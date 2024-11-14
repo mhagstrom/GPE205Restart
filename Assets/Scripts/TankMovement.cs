@@ -22,13 +22,25 @@ public class TankMovement : Movement
 
     //need to learn about namespaces so I can make these internal
     //movement is framerate independent with velocity
+    public float movingVolume { get; private set; }
+    public float rotatingVolume { get; private set; }
+    
+    //can be tweaked so rotating is quieter than moving
+    private float moveNoiseMultiplier = 5;
+    private float rotateNoiseMultiplier = 5;
+
     public override void Move(float verticalInput)
     {
         _rb.MovePosition(transform.position + transform.forward * (verticalInput * Time.deltaTime * _tankPawn.hullMoveSpeed));
+        
+        movingVolume = Mathf.Abs(verticalInput) * moveNoiseMultiplier;
     }
-
+    
     public override void Rotate(float horizontalInput)
     {
         transform.Rotate(0, horizontalInput * Time.deltaTime * _tankPawn.hullRotateSpeed, 0);
+        
+        rotatingVolume = Mathf.Abs(horizontalInput) * rotateNoiseMultiplier;
     }
+    
 }
