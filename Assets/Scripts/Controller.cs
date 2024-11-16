@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,7 +6,6 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     public Pawn pawn;
-
     public virtual void Start()
     {
         
@@ -21,3 +21,9 @@ public class Controller : MonoBehaviour
         
     }
 }
+
+    public enum ControllerType
+    {
+        Player,
+        AI
+    }

@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     public List<PlayerController> Players;
     
+    public List<PatrolPath> PatrolPaths;
+    
     public Camera mainCamera;
     
     private void Awake()
@@ -25,19 +27,81 @@ public class GameManager : MonoBehaviour
         }
         
         mainCamera = Camera.main;
+        
+        PatrolPaths = FindObjectsOfType<PatrolPath>().ToList();
     }
 
     // Start is called before the first frame update
     private void Start()
     {
         SpawnAll();
+        
     }
 
     private void SpawnAll()
     {
-        foreach (var spawner in Component.FindObjectsOfType<Spawner>())
+        System.Random rng = new System.Random();
+        Spawner[] allSpawns = FindObjectsOfType<Spawner>();
+        
+        //public void Shuffle<T> (T[] values);
+        Shuffle(allSpawns);
+        
+        
+        
+        if (allSpawns.Length > 0)
         {
-            spawner.Spawn();
+            // Assign PlayerController to the first Spawner
+            allSpawns[0].Spawn(ControllerType.Player);
+
+            // Assign AIControllers to the next 4 Spawners
+            for (int i = 1; i < allSpawns.Length && i < 5; i++)
+            {
+                allSpawns[i].Spawn(ControllerType.AI);
+            }
+        }
+       
+    }
+    
+    public void Shuffle(Spawner[] allSpawns)
+    {
+        int n = allSpawns.Length;
+        while (n > 1)
+        {
+            int k = UnityEngine.Random.Range(0, n--);
+            Spawner temp = allSpawns[n];
+            allSpawns[n] = allSpawns[k];
+            allSpawns[k] = temp;
+        }
+    }
+    
+    
+    //Vector3 position in the argument is provided by the call of this function, the position of the tank checking for the closest patrol path
+    public PatrolPath GetClosestPatrolPath(Vector3 position)
+    {
+        Dictionary<float, PatrolPath> pathDistances = new Dictionary<float, PatrolPath>();
+        foreach (var patrolPath in PatrolPaths)
+        {
+            Transform nearestWaypoint = patrolPath.GetNearestWaypoint(position);
+            //float distance = Vector3.Distance(nearestWaypoint.position, position);
+            //PathDistances.Add(distance);
+            pathDistances.Add(Vector3.Distance(nearestWaypoint.position, position), patrolPath);
+        }
+
+        float minDistance = float.MaxValue;
+        foreach (var key in pathDistances.Keys)
+        {
+            if (key < minDistance)
+            {
+                minDistance = key;
+            }
+        }
+        if (minDistance == float.MaxValue)
+        {
+            return null;
+        }
+        else
+        {
+            return pathDistances[minDistance];
         }
     }
     

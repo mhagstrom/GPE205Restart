@@ -12,7 +12,6 @@ public class TankPawn : Pawn
 {
     private TankMovement _movement;
     private TankShooter _shooter;
-    [SerializeField] private float hearingDistance = 10;
     private NoiseMaker _noiseMaker;
     
     //serializefields instead of getcomponent in awake
@@ -63,26 +62,7 @@ public class TankPawn : Pawn
         //in the future we could apply a curve to smooth out the noise
         float noiseVolume = _movement.movingVolume + _movement.rotatingVolume + _shooter.shootingVolume;
         _noiseMaker.volumeDistance = noiseVolume;
-        Debug.Log ($"movingVolume: {_movement.movingVolume}, rotatingVolume: {_movement.rotatingVolume}, shootingVolume: {_shooter.shootingVolume}");
+        //Debug.Log ($"movingVolume: {_movement.movingVolume}, rotatingVolume: {_movement.rotatingVolume}, shootingVolume: {_shooter.shootingVolume}");
     }
-    
-    public override bool Hearing(NoiseMaker noise)
-    {
-        if (Vector3.Distance(noise.transform.position, transform.position) < noise.volumeDistance + hearingDistance)
-        {
-            return true;
-        }
-        return false;
-    }
-    
-#if UNITY_EDITOR
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, hearingDistance);
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, _noiseMaker.volumeDistance);
-    }
-#endif
     
 }

@@ -27,4 +27,13 @@ public class Health : MonoBehaviour
             Debug.Log("Dead!");
         }
     }
+    
+    public void Heal(int healAmount)
+    {
+        currentHealth += healAmount;
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+    }
 }

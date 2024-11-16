@@ -46,3 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pawn: {fileID: 3402132981679604497, guid: d69b1b7fb4a3d764397210fd16c01fd6, type: 3}
   controller: {fileID: 0}
+  enemyTypes:
+  - {fileID: 11400000, guid: 952ca631af45907498489eb7f9d022b3, type: 2}
+  - {fileID: 11400000, guid: b89e5751efbeb114a851bc2ccb4738f4, type: 2}
+  - {fileID: 11400000, guid: 6c16000df5a76094c849b2a005ce3908, type: 2}
+  - {fileID: 11400000, guid: 5bfb4612201d61349a39498c94f8b68e, type: 2}

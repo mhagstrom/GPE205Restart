@@ -12,7 +12,6 @@ public abstract class Pawn : MonoBehaviour
     public float hullMoveSpeed;
     public float hullRotateSpeed;
     public float attackRate;
-    public bool hearsNoise;
     public Transform cameraMount;
 
     public abstract void Awake();
@@ -28,6 +27,5 @@ public abstract class Pawn : MonoBehaviour
     public abstract void Rotate(float horizontalInput);
     
     public abstract void MakeNoise();
-
-    public abstract bool Hearing(NoiseMaker noise);
+    
 }
