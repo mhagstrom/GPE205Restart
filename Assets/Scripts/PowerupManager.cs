@@ -6,11 +6,11 @@ public class PowerupManager : MonoBehaviour
 {
     public void Add(Powerup PowerupAdding) 
     {
-    
+        
     }
 
     public void Remove(Powerup PowerupRemoving) 
     {
-
+        
     } 
 }

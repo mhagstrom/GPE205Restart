@@ -31,6 +31,9 @@ public class Spawner : MonoBehaviour
             //pick random enemy type
             EnemyTypes enemyType = enemyTypes[Random.Range(0, enemyTypes.Length)];
             AIController aiController = pawnInstance.gameObject.AddComponent<AIController>();
+            AiHearing aiHearing = pawnInstance.gameObject.AddComponent<AiHearing>();
+            AiVision aiVision = pawnInstance.gameObject.AddComponent<AiVision>();
+            AiSpherecaster aiSpherecaster = pawnInstance.gameObject.AddComponent<AiSpherecaster>();
             aiController.enemyType = enemyType;
             aiController.pawn = pawnInstance;
             return aiController;

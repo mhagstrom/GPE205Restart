@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public List<PlayerController> Players;
+    public List<AIController> AIControllers;
+    public List<TankPawn> PlayerPawns;
+    public List<TankPawn> EnemyPawns;
+    public List<Transform> Waypoints;
     
     public List<PatrolPath> PatrolPaths;
     
@@ -26,16 +30,28 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
         
-        mainCamera = Camera.main;
         
-        PatrolPaths = FindObjectsOfType<PatrolPath>().ToList();
     }
 
     // Start is called before the first frame update
     private void Start()
     {
+        mainCamera = Camera.main;
+        
+        PatrolPaths = FindObjectsOfType<PatrolPath>().ToList();
+        
+        PlayerPawns = GameObject.FindGameObjectsWithTag("Player").Select(go => go.GetComponent<TankPawn>()).ToList();
+        EnemyPawns = GameObject.FindGameObjectsWithTag("Enemy").Select(go => go.GetComponent<TankPawn>()).ToList();
+        Waypoints = GameObject.FindGameObjectsWithTag("Waypoint").Select(go => go.GetComponent<Transform>()).ToList();
+        
         SpawnAll();
         
+        Debug.Log("Player Controllers: " + Players.Count);
+        Debug.Log("AI Controllers: " + AIControllers.Count);
+        Debug.Log("Player Pawns: " + PlayerPawns.Count);
+        Debug.Log("Enemy Pawns: " + EnemyPawns.Count);
+        
+        Debug.Log("Waypoints in GameManager: " + Waypoints.Count);
     }
 
     private void SpawnAll()
@@ -45,8 +61,6 @@ public class GameManager : MonoBehaviour
         
         //public void Shuffle<T> (T[] values);
         Shuffle(allSpawns);
-        
-        
         
         if (allSpawns.Length > 0)
         {

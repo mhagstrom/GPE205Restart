@@ -15,7 +15,7 @@ D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55861
+62307
 Successfully changed project path to: D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
 D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/school/GPE205Fall24/Tank/newGPE205/FreshStart
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22032] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 1038195693 [EditorId] 1038195693 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [40512] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 1363638755 [EditorId] 1363638755 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22032] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 1038195693 [EditorId] 1038195693 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [40512] Host "[IP] 192.168.50.111 [Port] 0 [Flags] 2 [Guid] 1363638755 [EditorId] 1363638755 [Version] 1048832 [Id] WindowsEditor(7,VRPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
-Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -79,46 +79,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007933 seconds.
-- Loaded All Assemblies, in  0.327 seconds
+Registered in 0.007104 seconds.
+- Loaded All Assemblies, in  0.263 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.258 seconds
-Domain Reload Profiling: 583ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 486ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (114ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (100ms)
+		LoadAssemblies (81ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (106ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (88ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (258ms)
+	FinalizeReload (225ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (214ms)
+		SetupLoadedEditorAssemblies (185ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
+			InitializePlatformSupportModulesInManaged (61ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (38ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -126,8 +126,8 @@ Domain Reload Profiling: 583ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.590 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.439 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -135,56 +135,56 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.519 seconds
-Domain Reload Profiling: 1107ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.498 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (385ms)
-		LoadAssemblies (314ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (201ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (116ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (520ms)
+	FinalizeReload (498ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (402ms)
+		SetupLoadedEditorAssemblies (392ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (281ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3308 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (169.1 KB). Loaded Objects now: 3777.
-Memory consumption went from 407.3 MB to 407.1 MB.
-Total: 2.991600 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.068200 ms MarkObjects: 2.585200 ms  DeleteObjects: 0.119300 ms)
+Unloading 3313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (168.7 KB). Loaded Objects now: 3782.
+Memory consumption went from 407.6 MB to 407.4 MB.
+Total: 3.253100 ms (FindLiveObjects: 0.265900 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.772300 ms  DeleteObjects: 0.135700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -202,184 +202,248 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 20853.632013 seconds.
-  path: Assets/Tree_Textures
-  artifactKey: Guid(92975a5980bf80840b27732d68ee073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree_Textures using Guid(92975a5980bf80840b27732d68ee073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f6e52c56edc472627b11dfc53e7f10') in 0.002762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2757.375780 seconds.
-  path: Assets/Scripts/FSM/IdleState.cs
-  artifactKey: Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/IdleState.cs using Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde1220f51e938fd7d7e5347148d7bc2') in 0.000518 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.937540 seconds.
-  path: Assets/Scripts/FSM/StunnedState.cs
-  artifactKey: Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/StunnedState.cs using Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e270c427d1a20b73d5d77dedeebbd3') in 0.000434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 49.051234 seconds.
-  path: Assets/Scripts/FSM/StunnedState.cs
-  artifactKey: Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/StunnedState.cs using Guid(100728b4827ccee41a39b28d6bdebe9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78f5aefd825fa1a8171bc1f8701d807') in 0.000486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 346.456883 seconds.
-  path: Assets/Prefabs/Maze1.prefab
-  artifactKey: Guid(25f35e7119ff10a40b8c49c93c7e46a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Maze1.prefab using Guid(25f35e7119ff10a40b8c49c93c7e46a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48adbf5afc325a820efc75c615a37c2d') in 0.059481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 202
-========================================================================
-Received Import Request.
-  Time since last request: 218.280058 seconds.
-  path: Assets/Scripts/FSM/TransitionStates.cs
-  artifactKey: Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/TransitionStates.cs using Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184da79babcb121947f2f664d1768851') in 0.000413 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 305.717732 seconds.
-  path: Assets/Scripts/FSM/TransitionStates.cs
-  artifactKey: Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/TransitionStates.cs using Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094aab26d202b5871ab20510abba1b6c') in 0.000525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 136.992592 seconds.
-  path: Assets/Scripts/FSM/TransitionStates.cs
-  artifactKey: Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/TransitionStates.cs using Guid(32d67bb39a7c18a419f63250d42c32fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c438debada81fc762a8c504fb7b64ed') in 0.000498 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.536459 seconds.
-  path: Assets/Scripts/FSM/AIAgent.cs
-  artifactKey: Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/AIAgent.cs using Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe3f77b78ab5cfc1c11a2991b7309f0') in 0.000423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 582.930966 seconds.
-  path: Assets/Scripts/FSM/AIAgent.cs
-  artifactKey: Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/AIAgent.cs using Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ba01449e3f5fd5d522c76f0bcfae58') in 0.000507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 428.669516 seconds.
-  path: Assets/Scripts/FSM/AIAgent.cs
-  artifactKey: Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/AIAgent.cs using Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a453912eb5f8ffc1b1b8515c21a56e82') in 0.000925 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 760.863259 seconds.
-  path: Assets/Scripts/FSM/AIAgent.cs
-  artifactKey: Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/AIAgent.cs using Guid(13cdcdd3d8e7fbb42b9ff6e646e3c938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f4e70df936c27900a43fc4d39df3b') in 0.000598 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1966.971195 seconds.
-  path: Assets/Scripts/FSM/GuardState1.cs
-  artifactKey: Guid(0294c43ac0e572d4083ae542edcf655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/GuardState1.cs using Guid(0294c43ac0e572d4083ae542edcf655a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582071dfa1221996c6ac3227ea0c3454') in 0.000545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.792031 seconds.
-  path: Assets/Scripts/FSM/GuardState.cs
-  artifactKey: Guid(0cc2e32edce52f741b0e75034c45d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/GuardState.cs using Guid(0cc2e32edce52f741b0e75034c45d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28220846b5706d6226a0c25abe6ecb61') in 0.000457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 129.075580 seconds.
-  path: Assets/Scripts/FSM/GuardState.cs
-  artifactKey: Guid(0cc2e32edce52f741b0e75034c45d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FSM/GuardState.cs using Guid(0cc2e32edce52f741b0e75034c45d224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbb0061ccc896dc27dded7459d2c8c6') in 0.000411 seconds
+  Time since last request: 161781.127162 seconds.
+  path: Assets/Scripts/Components
+  artifactKey: Guid(cba6badc0be98494fbefb45d5588ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components using Guid(cba6badc0be98494fbefb45d5588ccd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6ba123d2a1f68691eec011357ea8c6') in 0.002236 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.335 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.339 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.745 seconds
-Domain Reload Profiling: 1078ms
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 1019ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (682ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3217 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (140.7 KB). Loaded Objects now: 3785.
+Memory consumption went from 386.7 MB to 386.6 MB.
+Total: 2.644000 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.129400 ms MarkObjects: 2.217900 ms  DeleteObjects: 0.058400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 37.144621 seconds.
+  path: Assets/Scripts/Components/AiSpherecaster.cs
+  artifactKey: Guid(6f0ccaacb9df3b24d9121576cb6e32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiSpherecaster.cs using Guid(6f0ccaacb9df3b24d9121576cb6e32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f4fff080d5850cd51c744a42426364') in 0.010841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.337 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1006ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (671ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (140.9 KB). Loaded Objects now: 3789.
+Memory consumption went from 388.7 MB to 388.5 MB.
+Total: 3.088200 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.088400 ms MarkObjects: 2.660400 ms  DeleteObjects: 0.070600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.910704 seconds.
+  path: Assets/Scripts/Components/AiSpherecaster.cs
+  artifactKey: Guid(6f0ccaacb9df3b24d9121576cb6e32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiSpherecaster.cs using Guid(6f0ccaacb9df3b24d9121576cb6e32b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb72429a296bc57060c8c133a821d5e6') in 0.009617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.948434 seconds.
+  path: Assets/Scripts/Components/AiVision.cs
+  artifactKey: Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiVision.cs using Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4a4b760e1b376438a5ae033a410220') in 0.000401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.341 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.678 seconds
+Domain Reload Profiling: 1016ms
 	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (28ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (202ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (212ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (20ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (1ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (745ms)
+	FinalizeReload (678ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (367ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (59ms)
 			ProcessInitializeOnLoadAttributes (255ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (139.8 KB). Loaded Objects now: 3791.
-Memory consumption went from 386.8 MB to 386.7 MB.
-Total: 2.595200 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.243600 ms  DeleteObjects: 0.061300 ms)
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (140.9 KB). Loaded Objects now: 3793.
+Memory consumption went from 390.6 MB to 390.5 MB.
+Total: 2.472800 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.070800 ms MarkObjects: 2.134000 ms  DeleteObjects: 0.060700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -397,445 +461,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.310 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.710 seconds
-Domain Reload Profiling: 1019ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (141ms)
-		LoadAssemblies (192ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (711ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (393ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (275ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (139.8 KB). Loaded Objects now: 3794.
-Memory consumption went from 388.8 MB to 388.6 MB.
-Total: 2.599300 ms (FindLiveObjects: 0.222300 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.248800 ms  DeleteObjects: 0.057600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 4.657044 seconds.
+  path: Assets/Scripts/Components/AiVision.cs
+  artifactKey: Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiVision.cs using Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c2f01d4a20206ec7584ecc83c51872') in 0.009201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.278840 seconds.
+  path: Assets/Scripts/Components/AiHearing.cs
+  artifactKey: Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiHearing.cs using Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29b017a2a68ea40b3df7a10ec70fa3b') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.332 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.680 seconds
-Domain Reload Profiling: 1010ms
-	BeginReloadAssembly (121ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (205ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (680ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (373ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (259ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (140.0 KB). Loaded Objects now: 3797.
-Memory consumption went from 390.7 MB to 390.6 MB.
-Total: 2.516600 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.189200 ms  DeleteObjects: 0.056600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.322 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.706 seconds
-Domain Reload Profiling: 1027ms
-	BeginReloadAssembly (120ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (148ms)
-		LoadAssemblies (204ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (706ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (393ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (139.9 KB). Loaded Objects now: 3800.
-Memory consumption went from 392.6 MB to 392.5 MB.
-Total: 3.078100 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.557700 ms  DeleteObjects: 0.066100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.325 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.714 seconds
-Domain Reload Profiling: 1038ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (155ms)
-		LoadAssemblies (199ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (715ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (391ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (273ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (140.0 KB). Loaded Objects now: 3803.
-Memory consumption went from 394.6 MB to 394.4 MB.
-Total: 2.626300 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.074900 ms MarkObjects: 2.276100 ms  DeleteObjects: 0.060000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.318 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.705 seconds
-Domain Reload Profiling: 1022ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (193ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (706ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (388ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (140.0 KB). Loaded Objects now: 3806.
-Memory consumption went from 396.5 MB to 396.4 MB.
-Total: 2.967100 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.570200 ms  DeleteObjects: 0.087800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.332 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1041ms
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1013ms
 	BeginReloadAssembly (119ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
+		CreateAndSetChildDomain (29ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
+	initialDomainReloadingComplete (22ms)
 	LoadAllAssembliesAndSetupDomain (158ms)
 		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
+		AnalyzeDomain (18ms)
 			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
+				TypeCache.ScanAssembly (1ms)
 			ScanForSourceGeneratedMonoScriptInfo (5ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (711ms)
+	FinalizeReload (684ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (387ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (267ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Tessellation/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Tessellation/Outlines Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
 Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Particle2/Outline Cutout': fallback shader 'Toon/Lit Cutout (Double)' not found
+Shader '.poiyomi/Old Versions/Patreon/Wireframe Transparent': fallback shader 'Toon/Lit Cutout (Double)' not found
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (140.1 KB). Loaded Objects now: 3809.
-Memory consumption went from 398.4 MB to 398.3 MB.
-Total: 2.466200 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.104800 ms  DeleteObjects: 0.058200 ms)
+Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (140.8 KB). Loaded Objects now: 3797.
+Memory consumption went from 392.6 MB to 392.5 MB.
+Total: 2.955000 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.072700 ms MarkObjects: 2.592700 ms  DeleteObjects: 0.068900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -852,3 +552,35 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.748790 seconds.
+  path: Assets/Scripts/Components/AiHearing.cs
+  artifactKey: Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiHearing.cs using Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880524fd739e276b00563b7f7c9af71e') in 0.010805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.201411 seconds.
+  path: Assets/Scripts/Components/AiHearing.cs
+  artifactKey: Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiHearing.cs using Guid(4a0360c402ccd9e45bb8a06e62571628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba1b70d8f0c2b697ca39a96a34e768c') in 0.000451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1054.999070 seconds.
+  path: Assets/Scripts/Components/AiVision.cs
+  artifactKey: Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiVision.cs using Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d51698b66fb5e30dd166aabe568b34') in 0.000527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 545.285968 seconds.
+  path: Assets/Scripts/Components/AiVision.cs
+  artifactKey: Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Components/AiVision.cs using Guid(79cce999b3472364fb52d1b647dbf460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c55b3cba619fadb674b1571158b5fba') in 0.000545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

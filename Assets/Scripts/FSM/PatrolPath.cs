@@ -1,17 +1,26 @@
+using System;
+using System.Linq;
+using AAA;
 using UnityEngine;
 
 public class PatrolPath : MonoBehaviour
 {
     // holds an array of waypoints for the AI tanks to follow
-    [SerializeField] private Transform[] waypoints;
-    
+    private Transform[] _waypoints;
+
+    private void Start()
+    {
+        //get all the children of the patrol path
+        _waypoints = GetComponentsInChildren<Transform>().ToArray();
+    }
+
     //find the enarest waypoint on the path so when the tank returns to the path it can find the closest point
     public Transform GetNearestWaypoint(Vector3 position)
     {
         Transform nearestWaypoint = null;
         float nearestDistance = Mathf.Infinity;
         
-        foreach (Transform waypoint in waypoints)
+        foreach (Transform waypoint in _waypoints)
         {
             float distance = Vector3.Distance(position, waypoint.position);
             if (distance < nearestDistance)
@@ -28,9 +37,9 @@ public class PatrolPath : MonoBehaviour
     public Transform GetNextWaypoint(Transform currentWaypoint)
     {
         int currentIndex = -1;
-        for (int i = 0; i < waypoints.Length; i++)
+        for (int i = 0; i < _waypoints.Length; i++)
         {
-            if (waypoints[i] == currentWaypoint)
+            if (_waypoints[i] == currentWaypoint)
             {
                 currentIndex = i;
                 break;
@@ -43,8 +52,8 @@ public class PatrolPath : MonoBehaviour
             return null;
         }
 
-        int nextIndex = (currentIndex + 1) % waypoints.Length;
-        return waypoints[nextIndex];
+        int nextIndex = (currentIndex + 1) % _waypoints.Length;
+        return _waypoints[nextIndex];
     }
     
 #if UNITY_EDITOR
@@ -56,24 +65,24 @@ public class PatrolPath : MonoBehaviour
         style.fontStyle = FontStyle.Bold;
         style.normal.textColor = Color.white;
         
-        for (int i = 0; i < waypoints.Length; i++)
+        for (int i = 0; i < _waypoints.Length; i++)
         {
             //draw numbers on the waypoints
-            UnityEditor.Handles.Label(waypoints[i].position, i.ToString(), style);
+            UnityEditor.Handles.Label(_waypoints[i].position, i.ToString(), style);
             
             //draw spheres at each waypoint
             Gizmos.color = new Color(.8f, 0f, 1f, .5f);
-            Gizmos.DrawSphere(waypoints[i].position, .5f);
+            Gizmos.DrawSphere(_waypoints[i].position, .5f);
             
             //connect the lines
             Gizmos.color = new Color(1f, .5f, .9f, 1f);
-            if (i < waypoints.Length - 1)
+            if (i < _waypoints.Length - 1)
             {
-                Gizmos.DrawLine(waypoints[i].position, waypoints[i + 1].position);
+                Gizmos.DrawLine(_waypoints[i].position, _waypoints[i + 1].position);
             }
             else
             {
-                Gizmos.DrawLine(waypoints[i].position, waypoints[0].position);
+                Gizmos.DrawLine(_waypoints[i].position, _waypoints[0].position);
             }
         }
     }
