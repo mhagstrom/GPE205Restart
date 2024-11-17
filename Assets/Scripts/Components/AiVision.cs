@@ -73,6 +73,13 @@ public class AiVision : MonoBehaviour
         }
     }
     
-    
-    
+    #if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        //Draw the view distance and angle
+        Gizmos.matrix = Matrix4x4.TRS( transform.position, transform.rotation, Vector3.one );
+        Gizmos.color = Color.red;
+        Gizmos.DrawFrustum(Vector3.zero, viewAngle, viewDistance, 0, 1);
+    }
+    #endif
 }

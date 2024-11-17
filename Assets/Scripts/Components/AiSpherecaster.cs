@@ -57,4 +57,22 @@ public class AiSpherecaster : MonoBehaviour
             IsTargeting = SpherecastCheck();
         }
     }
+    #if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        RaycastHit hit;
+        if (Physics.SphereCast(transform.position, spherecastRadius, transform.forward, out hit, targetingDistance))
+        {
+            Vector3 HitPoint = transform.InverseTransformPoint(hit.point);
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawLine(Vector3.zero, HitPoint);
+            Gizmos.DrawWireSphere(HitPoint, spherecastRadius);
+        }
+        else
+        {
+            Gizmos.color = Color.grey;
+            Gizmos.DrawLine(Vector3.zero, transform.forward * targetingDistance);
+        }
+    }
+    #endif
 }

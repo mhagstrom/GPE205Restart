@@ -66,4 +66,14 @@ public class AiHearing : MonoBehaviour
             }
         }
     }
+    
+    #if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, hearingDistance);
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, _noiseMaker.volumeDistance);
+    }
+    #endif
 }
