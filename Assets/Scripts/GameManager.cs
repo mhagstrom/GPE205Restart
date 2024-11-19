@@ -17,7 +17,9 @@ public class GameManager : MonoBehaviour
     public List<PatrolPath> PatrolPaths;
     
     public Camera mainCamera;
-    
+
+    public int numTanks = 5;
+
     private void Awake()
     {
         if (Instance == null)
@@ -39,12 +41,12 @@ public class GameManager : MonoBehaviour
         mainCamera = Camera.main;
         
         PatrolPaths = FindObjectsOfType<PatrolPath>().ToList();
+        SpawnAll();
         
         PlayerPawns = GameObject.FindGameObjectsWithTag("Player").Select(go => go.GetComponent<TankPawn>()).ToList();
         EnemyPawns = GameObject.FindGameObjectsWithTag("Enemy").Select(go => go.GetComponent<TankPawn>()).ToList();
         Waypoints = GameObject.FindGameObjectsWithTag("Waypoint").Select(go => go.GetComponent<Transform>()).ToList();
         
-        SpawnAll();
         
         Debug.Log("Player Controllers: " + Players.Count);
         Debug.Log("AI Controllers: " + AIControllers.Count);
@@ -68,7 +70,7 @@ public class GameManager : MonoBehaviour
             allSpawns[0].Spawn(ControllerType.Player);
 
             // Assign AIControllers to the next 4 Spawners
-            for (int i = 1; i < allSpawns.Length && i < 5; i++)
+            for (int i = 1; i < allSpawns.Length && i < numTanks + 1; i++)
             {
                 allSpawns[i].Spawn(ControllerType.AI);
             }
@@ -118,11 +120,4 @@ public class GameManager : MonoBehaviour
             return pathDistances[minDistance];
         }
     }
-    
-    #region InstatiatingPrefabs
-    public GameObject playerControllerPrefab;
-    public GameObject enemyControllerPrefab;
-    public GameObject playerTankPawnPrefab;
-    public GameObject enemyTankPawnPrefab;
-    #endregion InstatiatingPrefabs
 }

@@ -1,18 +1,9 @@
-using System;
-using System.Linq;
-using AAA;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PatrolPath : MonoBehaviour
 {
-    // holds an array of waypoints for the AI tanks to follow
-    private Transform[] _waypoints;
-
-    private void Start()
-    {
-        //get all the children of the patrol path
-        _waypoints = GetComponentsInChildren<Transform>().ToArray();
-    }
+    public List<Transform> _waypoints => GameManager.Instance.Waypoints;
 
     //find the enarest waypoint on the path so when the tank returns to the path it can find the closest point
     public Transform GetNearestWaypoint(Vector3 position)
@@ -37,7 +28,7 @@ public class PatrolPath : MonoBehaviour
     public Transform GetNextWaypoint(Transform currentWaypoint)
     {
         int currentIndex = -1;
-        for (int i = 0; i < _waypoints.Length; i++)
+        for (int i = 0; i < _waypoints.Count; i++)
         {
             if (_waypoints[i] == currentWaypoint)
             {
@@ -52,7 +43,7 @@ public class PatrolPath : MonoBehaviour
             return null;
         }
 
-        int nextIndex = (currentIndex + 1) % _waypoints.Length;
+        int nextIndex = (currentIndex + 1) % _waypoints.Count;
         return _waypoints[nextIndex];
     }
     
@@ -65,7 +56,7 @@ public class PatrolPath : MonoBehaviour
         style.fontStyle = FontStyle.Bold;
         style.normal.textColor = Color.white;
         
-        for (int i = 0; i < _waypoints.Length; i++)
+        for (int i = 0; i < _waypoints.Count; i++)
         {
             //draw numbers on the waypoints
             UnityEditor.Handles.Label(_waypoints[i].position, i.ToString(), style);
@@ -76,7 +67,7 @@ public class PatrolPath : MonoBehaviour
             
             //connect the lines
             Gizmos.color = new Color(1f, .5f, .9f, 1f);
-            if (i < _waypoints.Length - 1)
+            if (i < _waypoints.Count - 1)
             {
                 Gizmos.DrawLine(_waypoints[i].position, _waypoints[i + 1].position);
             }

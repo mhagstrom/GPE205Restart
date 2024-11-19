@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e788a9fa5791f54c90180e9222f7352, type: 3}
   m_Name: Lazy
   m_EditorClassIdentifier: 
-  teamwork: 0
-  cowardice: 0
-  aggro: 0
+  teamwork: 1
+  cowardice: 0.7
+  aggro: 0.4

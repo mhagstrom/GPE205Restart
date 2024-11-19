@@ -64,13 +64,13 @@ public class AiVision : MonoBehaviour
         if (timeSinceLastTick > tickRate)
         {
             timeSinceLastTick = 0;
-            foreach (var playerPawn in playerPawns)
+            foreach (var playerPawn in GameManager.Instance.PlayerPawns)
             {
                 checkTarget = playerPawn;
                 _seesTarget = CanSee(checkTarget.transform);
             }
-            
         }
+        Debug.Log($"Sees Target: {SeesTarget}");
     }
     
     #if UNITY_EDITOR

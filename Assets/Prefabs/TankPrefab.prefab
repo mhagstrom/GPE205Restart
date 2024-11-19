@@ -347,6 +347,6 @@ MonoBehaviour:
   shooter: {fileID: 3994574811466030674}
   health: {fileID: 3006549554766017535}
   hullMoveSpeed: 5
-  hullRotateSpeed: 20
+  hullRotateSpeed: 40
   attackRate: 1
   cameraMount: {fileID: 1902156504912742500}

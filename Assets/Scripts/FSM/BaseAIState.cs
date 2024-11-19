@@ -19,7 +19,11 @@ public abstract class BaseAIState //no monobehavior complexity here
     public float horizontalInput = 0;
     public bool ShootInput = false;
 
-    public AIStateMachine.AIState StateType;
+    public AIStateMachine.AIState StateType
+    {
+        get { return (AIStateMachine.AIState)stateType; }
+    }
+
     public abstract int stateType { get; protected set; }
     public virtual void Enter()
     {

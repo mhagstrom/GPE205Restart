@@ -47,7 +47,7 @@ public class AiSpherecaster : MonoBehaviour
         }
         return false;
     }
-
+    
     private void Update()
     {
         timeSinceLastTick += Time.deltaTime;
@@ -56,6 +56,7 @@ public class AiSpherecaster : MonoBehaviour
             timeSinceLastTick = 0;
             IsTargeting = SpherecastCheck();
         }
+        Debug.Log(IsTargeting);
     }
     #if UNITY_EDITOR
     private void OnDrawGizmos()
@@ -67,11 +68,13 @@ public class AiSpherecaster : MonoBehaviour
             Gizmos.color = Color.yellow;
             Gizmos.DrawLine(Vector3.zero, HitPoint);
             Gizmos.DrawWireSphere(HitPoint, spherecastRadius);
+            Debug.Log(hit.transform.name);
         }
         else
         {
             Gizmos.color = Color.grey;
             Gizmos.DrawLine(Vector3.zero, transform.forward * targetingDistance);
+            Debug.Log("No SphereCast hit");
         }
     }
     #endif

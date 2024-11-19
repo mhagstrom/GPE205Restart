@@ -17,7 +17,7 @@ public class AIController : Controller
     public bool IsTargeting { get; set; }
     
     //variables for AI state machine
-    public  BaseAIState CurrentState;
+    public BaseAIState CurrentState;
     public EnemyTypes enemyType;
     
     public void Awake()
@@ -73,10 +73,16 @@ public class AIController : Controller
         AIStateMachine.UnregisterAgent(this);
     }
 
+    /*
+    public void SetDestination(Transform)
+    {
+        
+    }
+    */
+    
     public override void ProcessInputs()
     {
         base.ProcessInputs();
-        //inputs in ProcessInputs() are returning null exception, needs to be fixed
         
         float verticalInput = CurrentState.verticalInput;
         float horizontalInput = CurrentState.horizontalInput;

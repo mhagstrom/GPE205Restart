@@ -299,12 +299,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Players: []
+  AIControllers: []
+  PlayerPawns: []
+  EnemyPawns: []
+  Waypoints: []
   PatrolPaths: []
   mainCamera: {fileID: 0}
-  playerControllerPrefab: {fileID: 5575786089999482925, guid: aaaeb4182ad3e3b4eb05a77741341918, type: 3}
-  enemyControllerPrefab: {fileID: 2224920377599890764, guid: 0dffd9a2dd0be3d4eb62ec69c50300a2, type: 3}
-  playerTankPawnPrefab: {fileID: 3124290964624444204, guid: d69b1b7fb4a3d764397210fd16c01fd6, type: 3}
-  enemyTankPawnPrefab: {fileID: 3124290964624444204, guid: bc9c2cf80acf0ea4990a19db690de6d6, type: 3}
 --- !u!4 &774123560
 Transform:
   m_ObjectHideFlags: 0

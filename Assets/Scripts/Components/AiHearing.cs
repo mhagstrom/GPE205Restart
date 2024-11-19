@@ -44,7 +44,6 @@ public class AiHearing : MonoBehaviour
     public bool CanHear(NoiseMaker noise)
     {
         _lastListenedTime = Time.time;
-        RaycastHit hit;
         //this throws an error when tanks are destroyed because the list of noise makers is not updated in the game manager and its dependencies
         if (Vector3.Distance(noise.transform.position, transform.position) < noise.volumeDistance + hearingDistance)
         {
@@ -65,6 +64,7 @@ public class AiHearing : MonoBehaviour
                 HearsTarget = CanHear(_noiseMaker);
             }
         }
+        Debug.Log($"Hears target: {HearsTarget}");
     }
     
     #if UNITY_EDITOR
@@ -73,6 +73,8 @@ public class AiHearing : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, hearingDistance);
         Gizmos.color = Color.red;
+
+        if (_noiseMaker == null) return;
         Gizmos.DrawWireSphere(transform.position, _noiseMaker.volumeDistance);
     }
     #endif

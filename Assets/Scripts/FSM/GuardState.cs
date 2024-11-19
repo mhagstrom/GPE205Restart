@@ -5,9 +5,9 @@ using UnityEngine;
 public class GuardState : BaseAIState
 {
     //qualifiers for state based on personality
-    public static float teamwork = 0.8f;
-    public static float cowardice = 1;
-    public static float aggro = 0.5f;
+    public static float teamwork = 0.6f;
+    public static float cowardice = 0.1f;
+    public static float aggro = 0.6f;
     public GuardState(AIController controller) : base(controller){}
     
     public override int stateType { get; protected set; } = 4;

@@ -142,6 +142,9 @@ public static class AIStateMachine
         {
             return possibleStates[0];
         }
+
+        // where are we putting into account the other 
+        // game factors ie: health, sensed enemies/friendlies?
         
         float highestScore = 0;
         Dictionary<AIState, float> scores = new Dictionary<AIState, float>();

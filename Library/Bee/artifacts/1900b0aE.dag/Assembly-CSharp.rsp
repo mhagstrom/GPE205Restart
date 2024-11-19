@@ -364,6 +364,7 @@
 "Assets/Scripts/AIController.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Components/AiHearing.cs"
+"Assets/Scripts/Components/AiObstacleAvoidance.cs"
 "Assets/Scripts/Components/AiSpherecaster.cs"
 "Assets/Scripts/Components/AiVision.cs"
 "Assets/Scripts/Components/Health.cs"

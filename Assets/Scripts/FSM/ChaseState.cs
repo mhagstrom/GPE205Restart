@@ -14,9 +14,9 @@ public class ChaseState : BaseAIState
     }
     
     //qualifiers for state based on personality
-    public static float teamwork = 0.8f;
-    public static float cowardice = 1;
-    public static float aggro = 0.5f;
+    public static float teamwork = 0.9f;
+    public static float cowardice = 0.2f;
+    public static float aggro = 0.7f;
     
     
     public override void Enter()

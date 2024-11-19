@@ -5,9 +5,9 @@ using UnityEngine;
 public class AttackState : BaseAIState
 {
     //qualifiers for state based on personality
-    public static float teamwork = 0.8f;
-    public static float cowardice = 1;
-    public static float aggro = 0.5f;
+    public static float teamwork = 0.5f;
+    public static float cowardice = 0.4f;
+    public static float aggro = 1f;
     public AttackState(AIController controller) : base(controller){}
     
     public override int stateType { get; protected set; } = 3;
@@ -19,16 +19,18 @@ public class AttackState : BaseAIState
     
     public override void Enter()
     {
-        Debug.Log("Entering Idle State");
+        Debug.Log("Entering Attack State");
     }
     
     public override void Execute()
     {
-        Debug.Log("Executing Idle State");
+        //use ProcessInputs() on AIController to Shoot()
+        controller.pawn.Shoot();
+        Debug.Log("Executing Attack State");
     }
     
     public override void Exit()
     {
-        Debug.Log("Exiting Idle State");
+        Debug.Log("Exiting Attack State");
     }
 }

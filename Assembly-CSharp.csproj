@@ -50,6 +50,7 @@
     <Compile Include="Assets\Scripts\NoiseMaker.cs" />
     <Compile Include="Assets\Scripts\Components\AiHearing.cs" />
     <Compile Include="Assets\Scripts\Pawn.cs" />
+    <Compile Include="Assets\Scripts\Components\AiObstacleAvoidance.cs" />
     <Compile Include="Assets\Scripts\FSM\StunnedState.cs" />
     <Compile Include="Assets\Scripts\FSM\GuardState.cs" />
     <Compile Include="Assets\Scripts\FSM\TransitionStates.cs" />
