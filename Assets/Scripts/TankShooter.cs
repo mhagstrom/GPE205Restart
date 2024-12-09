@@ -5,24 +5,20 @@ using UnityEngine.UIElements;
 
 public class TankShooter : Shooter
 {
-    public TankPawn tankPawn;
+    private TankPawn tankPawn;
+    private NoiseMaker noiseMaker;
 
     public override void Awake()
     {
         tankPawn = GetComponent<TankPawn>();
-    }
-
-    public void Update()
-    {
-        shootingVolume = Mathf.Clamp(shootingVolume-0.1f, 0, shootingNoiseMultiplier);
+        noiseMaker = GetComponent<NoiseMaker>();
     }
     
-    public float shootingVolume { get; private set; }
-    private float shootingNoiseMultiplier = 10f;
     public override void Shoot()
     {
         Bullet newBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         newBullet.InitBullet(tankPawn, firePoint.forward);
-        shootingVolume = shootingNoiseMultiplier;
+        newBullet.damage = (int)(tankPawn.PowerupManager.damageMultiplier * newBullet.damage);
+        noiseMaker.shootingVolume = noiseMaker.shootingNoiseMultiplier;
     }
 }

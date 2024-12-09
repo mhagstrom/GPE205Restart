@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletrb: {fileID: 6419174522523871280}
-  damage: 10
+  damage: 40
   velocity: 20
   bulletVFX: {fileID: 1828176872806910, guid: 64891a0eb28db934898420d80ca07cb3, type: 3}
+  lifeTime: 5

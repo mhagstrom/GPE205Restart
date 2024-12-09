@@ -4,36 +4,79 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private int currentHealth = 100;
-    [SerializeField] private int maxHealth = 100;
+    private int currentHealth = 100;
+    public int MaxHealth { get; private set; } = 100;
+
+    public delegate void OnHealthChanged(int health);
+    public event OnHealthChanged HealthChanged;
+
+    public delegate void OnDeath();
+    public event OnDeath DeathEvent;
+
+    public TankPawn pawn;
+    public TankPawn lastDamager;
+    public int CurrentHealth
+    {
+        get
+        {
+            return currentHealth;
+        }
+        private set
+        {
+            int oldHealth = currentHealth;
+            currentHealth = value;
+
+            currentHealth = Mathf.Clamp(currentHealth, 0, MaxHealth);
+
+            if (currentHealth != oldHealth)
+            {
+                HealthChanged?.Invoke(currentHealth);
+                Debug.Log(value + "damage taken! " + "Health: " + CurrentHealth);
+            }
+
+            if (oldHealth > 0 && CurrentHealth <= 0)
+            {
+                DeathEvent?.Invoke();
+
+                GiveKillerScore();
+                lastDamager = null;
+
+                Debug.Log("Dead!");
+            }
+        }
+    }
+
+    private void GiveKillerScore()
+    {
+        if (lastDamager != null)
+        {
+            var controller = lastDamager.GetComponent<PlayerController>();
+            if (controller)
+            {
+                controller.AddScore(10);
+            }
+        }
+    }
 
     private void Awake()
     {
-        currentHealth = maxHealth;
+        pawn = GetComponent<TankPawn>();
+        CurrentHealth = MaxHealth;
     }
 
-    public void OnDie()
-    {
-        Destroy (gameObject);
-    }
-    
     public void OnDamageTaken(int damage)
     {
-        currentHealth -= damage;
-        Debug.Log(damage + "damage taken! " + "Health: " + currentHealth);
-        if (currentHealth <= 0)
-        {
-            OnDie();
-            Debug.Log("Dead!");
-        }
+        CurrentHealth -= damage;
+    }
+
+    public void SetLastDamager(TankPawn pawn)
+    {
+        lastDamager = pawn;
     }
     
     public void Heal(int healAmount)
     {
-        currentHealth += healAmount;
-        if (currentHealth > maxHealth)
-        {
-            currentHealth = maxHealth;
-        }
+        CurrentHealth += healAmount;
+
     }
 }

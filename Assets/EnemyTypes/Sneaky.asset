@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e788a9fa5791f54c90180e9222f7352, type: 3}
   m_Name: Sneaky
   m_EditorClassIdentifier: 
-  teamwork: 0.5
-  cowardice: 0.6
-  aggro: 0.1
+  teamwork: 0.1
+  cowardice: 0.3
+  aggro: 1

@@ -5,16 +5,16 @@ using UnityEngine;
 public class StunnedState : BaseAIState
 {
     //qualifiers for state based on personality
-    public static float teamwork = 0.7f;
-    public static float cowardice = 0.5f;
-    public static float aggro = 0.3f;
+    public new static float teamwork = 0.7f;
+    public new static float cowardice = 0.5f;
+    public new static float aggro = 0.3f;
     
     
     public StunnedState(AIController controller) : base(controller){}
     
     public override int stateType { get; protected set; } = 0;
 
-    public AIStateMachine.AIState StateType
+    public new AIStateMachine.AIState StateType
     {
         get { return (AIStateMachine.AIState)stateType; }
     }
@@ -32,9 +32,9 @@ public class StunnedState : BaseAIState
         elapsedTime += Time.deltaTime;
         if(elapsedTime >= idleTimer)
         {
-            
+            AIStateMachine.RequestStateChange(controller, null);
         }
-        Debug.Log("Executing Stunned State");
+        //Debug.Log("Executing Stunned State");
     }
 
     public override void Exit()

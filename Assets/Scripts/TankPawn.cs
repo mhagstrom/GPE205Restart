@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(TankMovement))]
@@ -10,18 +9,23 @@ using UnityEngine;
 [RequireComponent(typeof(BoxCollider))]
 public class TankPawn : Pawn
 {
-    private TankMovement _movement;
-    private TankShooter _shooter;
-    private NoiseMaker _noiseMaker;
+    public TankAudio TankAudio;
+    public NoiseMaker NoiseMaker;
+    [FormerlySerializedAs("powerupManager")] [FormerlySerializedAs("powerupController")]
+    public PowerupManager PowerupManager;
     
     //serializefields instead of getcomponent in awake
     private float _timeSinceLastAttack = 0;
     
     public override void Awake()
     {
-        _movement = GetComponent<TankMovement>();
-        _shooter = GetComponent<TankShooter>();
-        _noiseMaker = GetComponent<NoiseMaker>();
+        Health = GetComponent<Health>();
+        Shooter = GetComponent<TankShooter>();
+        Movement = GetComponent<TankMovement>();
+
+        TankAudio = GetComponent<TankAudio>();
+        NoiseMaker = GetComponent<NoiseMaker>();
+        PowerupManager = GetComponent<PowerupManager>();
     }
     
     // Start is called before the first frame update
@@ -43,26 +47,29 @@ public class TankPawn : Pawn
         {
             return;
         }
-        shooter.Shoot();
+        Shooter.Shoot();
+        TankAudio.ShootingNoise();
         _timeSinceLastAttack = 0;
     }
 
     public override void Move(float verticalInput)
     {
-        movement.Move(verticalInput);
+        Movement.Move(verticalInput);
     }
 
     public override void Rotate(float horizontalInput)
     {
-        movement.Rotate(horizontalInput);
+        Movement.Rotate(horizontalInput);
     }
     
     public override void MakeNoise()
     {
-        //in the future we could apply a curve to smooth out the noise
-        float noiseVolume = _movement.movingVolume + _movement.rotatingVolume + _shooter.shootingVolume;
-        _noiseMaker.volumeDistance = noiseVolume;
-        //Debug.Log ($"movingVolume: {_movement.movingVolume}, rotatingVolume: {_movement.rotatingVolume}, shootingVolume: {_shooter.shootingVolume}");
+        NoiseMaker.MakeNoise();
+    }
+    
+    public override void ActivatePowerup(PowerupType powerup)
+    {
+        PowerupManager.ActivatePowerup(powerup);
     }
     
 }

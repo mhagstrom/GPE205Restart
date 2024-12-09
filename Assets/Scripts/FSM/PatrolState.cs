@@ -9,7 +9,7 @@ public class PatrolState : BaseAIState
     
     public override int stateType { get; protected set; } = 1;
 
-    public AIStateMachine.AIState StateType
+    public new AIStateMachine.AIState StateType
     {
         get { return (AIStateMachine.AIState)stateType; }
     }
@@ -18,9 +18,9 @@ public class PatrolState : BaseAIState
     private Transform currentWaypoint;
     
     //qualifiers for state based on personality
-    public static float teamwork = 0.8f;
-    public static float cowardice = 1;
-    public static float aggro = 0.5f;
+    public new static float teamwork = 0.8f;
+    public new static float cowardice = 1;
+    public new static float aggro = 0.5f;
     
     public override void Enter()
     {
@@ -33,7 +33,7 @@ public class PatrolState : BaseAIState
     
     public override void Execute()
     {
-        Debug.Log($"Current state: {(int)StateType}");
+        //Debug.Log($"Current state: {(int)StateType}");
         if (currentWaypoint == null)
         {
             currentWaypoint = path.GetNearestWaypoint(controller.transform.position);
@@ -60,6 +60,9 @@ public class PatrolState : BaseAIState
             horizontalInput = 0;
         }
         verticalInput = 0.33f;
+
+        if(currentWaypoint)
+            DebugPlus.DrawCube(currentWaypoint.transform.position, Vector3.one * 1.25f).color = Color.yellow;
     }
     
     public override void Exit()

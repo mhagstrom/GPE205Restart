@@ -1,5 +1,6 @@
 using UnityEngine;
 
+//Narrow field of view for shooting
 public class AiSpherecaster : MonoBehaviour
 {
     [SerializeField] private float tickRate = 0.1f;
@@ -43,7 +44,6 @@ public class AiSpherecaster : MonoBehaviour
             {
                 return true;
             }
-            return true;
         }
         return false;
     }
@@ -56,7 +56,7 @@ public class AiSpherecaster : MonoBehaviour
             timeSinceLastTick = 0;
             IsTargeting = SpherecastCheck();
         }
-        Debug.Log(IsTargeting);
+        //Debug.Log(IsTargeting);
     }
     #if UNITY_EDITOR
     private void OnDrawGizmos()
@@ -64,17 +64,17 @@ public class AiSpherecaster : MonoBehaviour
         RaycastHit hit;
         if (Physics.SphereCast(transform.position, spherecastRadius, transform.forward, out hit, targetingDistance))
         {
-            Vector3 HitPoint = transform.InverseTransformPoint(hit.point);
+            Vector3 HitPoint = hit.point;
             Gizmos.color = Color.yellow;
-            Gizmos.DrawLine(Vector3.zero, HitPoint);
+            Gizmos.DrawLine(transform.position, HitPoint);
             Gizmos.DrawWireSphere(HitPoint, spherecastRadius);
-            Debug.Log(hit.transform.name);
+            //Debug.Log(hit.transform.name);
         }
         else
         {
             Gizmos.color = Color.grey;
-            Gizmos.DrawLine(Vector3.zero, transform.forward * targetingDistance);
-            Debug.Log("No SphereCast hit");
+            Gizmos.DrawLine(transform.position, transform.position + transform.forward * targetingDistance);
+            //Debug.Log("No SphereCast hit");
         }
     }
     #endif

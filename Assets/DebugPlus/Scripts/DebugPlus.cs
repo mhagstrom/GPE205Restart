@@ -177,8 +177,8 @@ public static class DebugPlus {
     /// </summary>
     /// <param name="text"></param>
     /// <returns>The fluent object to add parameters.</returns>
-    public static LogEntry LogOnScreen(string text) {
-        var res = new LogEntry(text);
+    public static LogEntry LogOnScreen(object text) {
+        var res = new LogEntry(text.ToString());
 #if UNITY_EDITOR
         LogDrawer.Log(res);
 #else

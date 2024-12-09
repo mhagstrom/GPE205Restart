@@ -1,42 +1,44 @@
 using System;
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class AiHearing : MonoBehaviour
+public abstract class AiSense : MonoBehaviour
+{
+    public TankPawn MyPawn;
+
+    private void Awake()
+    {
+        MyPawn = GetComponent<TankPawn>();
+    }
+}
+
+public class AiHearing : AiSense
 {
     [SerializeField] private float tickRate = 0.1f;
     private float timeSinceLastTick = 0;
     [Space(10)]
     
     //hearing distance for the AI
-    private NoiseMaker[] noiseMakers;
-    private NoiseMaker _noiseMaker;
+    //need to remove destroyed noisemakers from this array to prevent null exceptions
     [SerializeField] private float hearingDistance = 10;
     private float _lastListenedTime;
     private bool _hearsTarget;
+
+    HashSet<TankPawn> heardTargets = new HashSet<TankPawn>();
     
     //event that gets raise when istargeting changes
-    public delegate void TargetingChanged(bool isTargeting);
-    public event TargetingChanged OnTargetingChanged;
-
-    private void Start()
-    {
-        noiseMakers = FindObjectsOfType<NoiseMaker>();
-    }
+    public delegate void TargetingChanged(bool isTargeting, HashSet<TankPawn> target);
+    public event TargetingChanged OnStatusChanged;
 
     public bool HearsTarget
     {
         get
         {
-            //check if time is greather than the cached time + the rate
-            if (_lastListenedTime + tickRate < Time.time)
-            {
-                _hearsTarget = CanHear(_noiseMaker);
-            }
             return _hearsTarget;
         }
         private set
         {
-            if (_hearsTarget != value) OnTargetingChanged?.Invoke(value);
             _hearsTarget = value;
         }
     }
@@ -58,13 +60,37 @@ public class AiHearing : MonoBehaviour
         if (timeSinceLastTick > tickRate)
         {
             timeSinceLastTick = 0;
-            foreach (var noiseMaker in noiseMakers)
+
+            for (int i = 0; i < GameManager.Instance.AllPawns.Count; i++)
             {
-                _noiseMaker = noiseMaker;
-                HearsTarget = CanHear(_noiseMaker);
+                var pawn = GameManager.Instance.AllPawns[i];
+                if (pawn == null) continue;
+
+                bool changed = false;
+                if (pawn == MyPawn) continue;
+
+                var heard = CanHear(pawn.NoiseMaker);
+                
+                if (heard && !heardTargets.Contains(pawn))
+                {
+                    heardTargets.Add(pawn);
+                    changed = true;
+                }
+                else if (!heard && heardTargets.Contains(pawn))
+                {
+                    heardTargets.Remove(pawn);
+                    changed = true;
+                }
+
+                HearsTarget = heardTargets.Count > 0;
+                if(changed) 
+                {
+                    Debug.Log("Change!");
+                    OnStatusChanged?.Invoke(HearsTarget, heardTargets);
+                }
             }
         }
-        Debug.Log($"Hears target: {HearsTarget}");
+        //Debug.Log($"Hears target: {HearsTarget}");
     }
     
     #if UNITY_EDITOR
@@ -73,9 +99,6 @@ public class AiHearing : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, hearingDistance);
         Gizmos.color = Color.red;
-
-        if (_noiseMaker == null) return;
-        Gizmos.DrawWireSphere(transform.position, _noiseMaker.volumeDistance);
     }
     #endif
 }

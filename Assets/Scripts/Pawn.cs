@@ -5,9 +5,9 @@ using UnityEngine;
 
 public abstract class Pawn : MonoBehaviour
 {
-    public Movement movement;
-    public Shooter shooter;
-    public Health health;
+    public Movement Movement;
+    public Shooter Shooter;
+    public Health Health;
 
     public float hullMoveSpeed;
     public float hullRotateSpeed;
@@ -27,5 +27,7 @@ public abstract class Pawn : MonoBehaviour
     public abstract void Rotate(float horizontalInput);
     
     public abstract void MakeNoise();
+    
+    public abstract void ActivatePowerup(PowerupType powerup);
     
 }

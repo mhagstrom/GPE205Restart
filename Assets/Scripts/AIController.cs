@@ -1,36 +1,63 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AIController : Controller
 {
-    [SerializeField] private float tickRate = 0.1f;
-    private float lastTickTime;
-    
-    private Transform[] Targets; //will be used later to store all the targets in the scene
-    
-    private Transform activeTarget; //stores which pawn the AI wants to chase or shoot at
-    
-    public bool HearsTarget { get; set; }
-    public bool SeesTarget { get; set; }
-    public bool IsTargeting { get; set; }
-    
+    public bool HearsTarget => _aiHearing.HearsTarget;
+    public bool SeesTarget => _aiVision.SeesTarget;
+    public bool IsTargeting => _aiSphereCasting.IsTargeting;
+
     //variables for AI state machine
     public BaseAIState CurrentState;
     public EnemyTypes enemyType;
-    
+
+    public AiVision _aiVision;
+    public AiHearing _aiHearing;
+    public AiSpherecaster _aiSphereCasting;
+
+    public TankPawn currentTarget;
+
+    //Spherecast component is for shooting
+    //Vision is for chasing
+    //Hearing guides states, and hints to move to nearest waypoint
+
     public void Awake()
     {
         AIStateMachine.RegisterAgent(this);
-        CurrentState = new GuardState(this);
-        
+        CurrentState = new PatrolState(this);
     }
-    
+
+    private void OnDeath()
+    {
+        GameManager.Instance.OnEnemyDeath(GetComponent<TankPawn>());
+    }
+
+    private void AIController_OnStatusChanged(bool seesTarget, HashSet<TankPawn> pawns)
+    {
+        if(seesTarget && currentTarget == null && pawns.Count > 0)
+        {
+            currentTarget = pawns.First();
+        }
+        AIStateMachine.RequestStateChange(this, pawns);
+    }
+
     // Start is called before the first frame update
     public override void Start()
     {
+        _aiVision = GetComponent<AiVision>();
+        _aiHearing = GetComponent<AiHearing>();
+        _aiSphereCasting = GetComponent<AiSpherecaster>();
+
+        _aiVision.OnStatusChanged += AIController_OnStatusChanged;
+        _aiHearing.OnStatusChanged += AIController_OnStatusChanged;
+        
         CurrentState.Enter();
+
+        pawn.Health.DeathEvent += OnDeath;
+
         // Run the parent (base) Start
         base.Start();
     }
@@ -38,28 +65,12 @@ public class AIController : Controller
     // Update is called once per frame
     public override void Update()
     {
-        Debug.Log($"Current state: {(int)CurrentState.StateType}");
-        //Debug.Log($"Horizontal: {CurrentState.horizontalInput}");
-        //Debug.Log($"Vertical: {CurrentState.verticalInput}");
-        lastTickTime += Time.deltaTime;
-        if (lastTickTime > tickRate)
-        {
-            lastTickTime = 0;
-            //might change state every 10th of a second :( 
-            /* I want to update these values here to trigger state change but idk implementation
-             * 
-             * _hearsTarget = CanHear(_noiseMaker);
-             * _seesTarget = CanSee(activeTarget);
-             * _isTargeting = SpherecastCheck();
-            */
-            
-            // These sort of senses should be separated out into their own components 
-            // and raise events when their own state changes. Ai controller should add those components
-            // and listen for thier events to then request a state change
 
-            AIStateMachine.RequestStateChange(this);
-        }
-        
+        DebugPlus.LogOnScreen($"Hears: {HearsTarget}");
+        DebugPlus.LogOnScreen($"Sees: {SeesTarget}");
+        DebugPlus.LogOnScreen($"Targeting: {IsTargeting}");
+        string stateName = Enum.GetName(typeof(AIStateMachine.AIState), CurrentState.StateType);
+        DebugPlus.LogOnScreen($"{name} State: {stateName}");
         CurrentState.Execute();
         
         ProcessInputs();
@@ -71,6 +82,8 @@ public class AIController : Controller
     private void OnDestroy()
     {
         AIStateMachine.UnregisterAgent(this);
+        _aiVision.OnStatusChanged -= AIController_OnStatusChanged;
+        pawn.Health.DeathEvent -= OnDeath;
     }
 
     /*

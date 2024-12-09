@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+//TODO: Change into ScriptableObject
 public abstract class BaseAIState //no monobehavior complexity here
 {
     //constructor runs when object is created
@@ -10,9 +9,9 @@ public abstract class BaseAIState //no monobehavior complexity here
         this.controller = controller;
     }
     
-    public float teamwork;
-    public float cowardice;
-    public float aggro;
+    public static float teamwork;
+    public static float cowardice;
+    public static float aggro;
     
     protected AIController controller;
     public float verticalInput = 0;
@@ -38,5 +37,25 @@ public abstract class BaseAIState //no monobehavior complexity here
     public virtual void Exit()
     {
         
+    }
+
+    public void TurnTowards(TankPawn target)
+    {
+        if (target == null) return;
+
+        float angle = Vector3.SignedAngle(controller.transform.forward, (target.transform.position - controller.transform.position).normalized, Vector3.up);
+        if (angle > 0)
+        {
+            horizontalInput = 1;
+        }
+
+        if (angle < 0)
+        {
+            horizontalInput = -1;
+        }
+        if (angle > -3 && angle < 3)
+        {
+            horizontalInput = 0;
+        }
     }
 }

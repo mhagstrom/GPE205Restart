@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class ChaseState : BaseAIState
 { 
@@ -8,15 +11,15 @@ public class ChaseState : BaseAIState
     
     public override int stateType { get; protected set; } = 2;
 
-    public AIStateMachine.AIState StateType
+    public new AIStateMachine.AIState StateType
     {
         get { return (AIStateMachine.AIState)stateType; }
     }
     
     //qualifiers for state based on personality
-    public static float teamwork = 0.9f;
-    public static float cowardice = 0.2f;
-    public static float aggro = 0.7f;
+    public new static float teamwork = 0.9f;
+    public new static float cowardice = 0.2f;
+    public new static float aggro = 0.7f;
     
     
     public override void Enter()
@@ -26,25 +29,24 @@ public class ChaseState : BaseAIState
     
     public override void Execute()
     {
-        //check if AIController has an active target stored in its activeTarget variable to chase and if not return to patrol state
-        
-        if (!controller.SeesTarget)
+        //use ProcessInputs() on AIController to Shoot()
+
+        var target = controller._aiVision.Targets.FirstOrDefault();
+
+        if (target == null)
         {
-            
-        }
-        {
-            // send inputs to controller.ProcessInputs(); to move towards the active target
+            return;
         }
 
-        Debug.Log("Executing Chase State");
-        
-        //use horizontalInput and verticalInput using ProcessInputs() to chase the active target
-        //the code below needs to make use of the Hearing and Seeing provided in the AIController
-        
-        
-        Debug.Log("Executing Chase State");
+        controller.pawn.Shoot();
+        //if angle is more than 5 degrees set the horizontal input to 1
+
+        TurnTowards(target);
+        verticalInput = 0.33f;
+
+        //Debug.Log("Executing Attack State");
     }
-    
+
     public override void Exit()
     {
         Debug.Log("Exiting Chase State");

@@ -10,7 +10,6 @@ public static class AIStateMachine
         Stunned,
         Patrol,
         Chase,
-        Attack,
         Guard,
         Flee,
     }
@@ -29,10 +28,10 @@ public static class AIStateMachine
         AgentList.Remove(agent);
     }
     
-    public static void RequestStateChange(AIController agent)
+    public static void RequestStateChange(AIController agent, HashSet<TankPawn> targets)
     {
-        List<AIState> possibleStates = AssessState(agent);
-        AIState newState = GetNewState(possibleStates, agent.enemyType);
+        List<AIState> possibleStates = AssessState(agent, targets);
+        AIState newState = GetNewState(agent, possibleStates, agent.enemyType);
 
         if (agent.CurrentState.StateType == newState)
         {
@@ -47,9 +46,6 @@ public static class AIStateMachine
                 break;
             case AIState.Chase:
                 state = new ChaseState(agent);
-                break;
-            case AIState.Attack:
-                state = new AttackState(agent);
                 break;
             case AIState.Flee:
                 state = new FleeState(agent);
@@ -66,7 +62,7 @@ public static class AIStateMachine
         agent.CurrentState.Enter();
     }
     
-    private static List<AIState> AssessState(AIController agent)
+    private static List<AIState> AssessState(AIController agent, HashSet<TankPawn> targets)
     {
         AIState currentState = agent.CurrentState.StateType;
         List<AIState> possibleStates = new List<AIState>();
@@ -74,41 +70,31 @@ public static class AIStateMachine
         {
             case AIState.Patrol:
                 possibleStates.Add(AIState.Chase);
-                possibleStates.Add(AIState.Attack);
+                possibleStates.Add(AIState.Guard);
                 possibleStates.Add(AIState.Flee);
                 possibleStates.Add(AIState.Stunned);
                 break;
                 
             case AIState.Chase:
-                possibleStates.Add(AIState.Attack);
                 possibleStates.Add(AIState.Patrol);
                 possibleStates.Add(AIState.Flee);
                 possibleStates.Add(AIState.Stunned);
-                break;
-                
-            case AIState.Attack:
                 possibleStates.Add(AIState.Chase);
-                possibleStates.Add(AIState.Patrol);
-                possibleStates.Add(AIState.Flee);
-                possibleStates.Add(AIState.Stunned);
                 break;
-                
+
             case AIState.Flee:
                 possibleStates.Add(AIState.Patrol);
                 possibleStates.Add(AIState.Chase);
-                possibleStates.Add(AIState.Attack);
                 break;
                 
             case AIState.Stunned:
                 possibleStates.Add(AIState.Patrol);
                 possibleStates.Add(AIState.Chase);
-                possibleStates.Add(AIState.Attack);
                 break;
             
             case AIState.Guard:
                 possibleStates.Add(AIState.Patrol);
                 possibleStates.Add(AIState.Chase);
-                possibleStates.Add(AIState.Attack);
                 possibleStates.Add(AIState.Flee);
                 possibleStates.Add(AIState.Stunned);
                 break;
@@ -116,22 +102,40 @@ public static class AIStateMachine
 
         bool enemyDetected = false;
 
-        if (agent.HearsTarget || agent.SeesTarget || agent.IsTargeting)
+        if (agent.SeesTarget || agent.IsTargeting)
         {
             enemyDetected = true;
+        }
+
+        if (!agent.SeesTarget && agent.HearsTarget)
+        {
+            if(possibleStates.Contains(AIState.Chase))
+            {
+                possibleStates.Remove(AIState.Chase);
+            }
         }
 
         if (!enemyDetected)
         {
             possibleStates.Remove(AIState.Chase);
-            possibleStates.Remove(AIState.Attack);
             possibleStates.Remove(AIState.Flee);
             possibleStates.Remove(AIState.Stunned);
         }
+        else
+        {
+            possibleStates.Remove(AIState.Patrol);
+
+            if (agent.GetComponent<Health>().CurrentHealth <= 30)
+            {
+                if(!possibleStates.Contains(AIState.Flee))
+                    possibleStates.Add(AIState.Flee);
+            }
+        }
+
         return possibleStates;
     }
     
-    private static AIState GetNewState(List<AIState> possibleStates, EnemyTypes personality)
+    private static AIState GetNewState(AIController agent, List<AIState> possibleStates, EnemyTypes personality)
     {
         if (possibleStates.Count == 0)
         {
@@ -145,7 +149,22 @@ public static class AIStateMachine
 
         // where are we putting into account the other 
         // game factors ie: health, sensed enemies/friendlies?
-        
+
+        var health = agent.GetComponent<Health>();
+
+        float healthWeight = 0;
+        if (health.CurrentHealth < 30)
+        {
+            var chance = UnityEngine.Random.Range(0, 100) > 50;
+
+            if(chance)
+            {
+                healthWeight = 1f;
+            }
+        }
+
+
+
         float highestScore = 0;
         Dictionary<AIState, float> scores = new Dictionary<AIState, float>();
         foreach (AIState state in possibleStates)
@@ -158,11 +177,8 @@ public static class AIStateMachine
                 case AIState.Chase:
                     scores.Add(AIState.Chase, GetStateScore(ChaseState.teamwork, ChaseState.aggro, ChaseState.cowardice, personality));
                     break;
-                case AIState.Attack:
-                    scores.Add(AIState.Attack, GetStateScore(AttackState.teamwork, AttackState.aggro, AttackState.cowardice, personality));
-                    break;
                 case AIState.Flee:
-                    scores.Add(AIState.Flee, GetStateScore(FleeState.teamwork, FleeState.aggro, FleeState.cowardice, personality));
+                    scores.Add(AIState.Flee, GetStateScore(FleeState.teamwork, FleeState.aggro, FleeState.cowardice, personality) + healthWeight);
                     break;
                 case AIState.Stunned:
                     scores.Add(AIState.Stunned, GetStateScore(StunnedState.teamwork, StunnedState.aggro, StunnedState.cowardice, personality));
@@ -173,6 +189,14 @@ public static class AIStateMachine
             }
             
         }
+
+        //TODO: Damage taken calculations here
+
+        //TODO: Idle timer
+
+        //TODO: Safe timer
+
+        //TODO: Clear currentTarget when not seen in vision component for x amount of time
 
         foreach (float value in scores.Values)
         {

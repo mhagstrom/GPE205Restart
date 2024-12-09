@@ -5,14 +5,14 @@ using UnityEngine;
 public class FleeState : BaseAIState
 {
     //qualifiers for state based on personality
-    public static float teamwork = 0.2f;
-    public static float cowardice = 1;
-    public static float aggro = 0.5f;
+    public new static float teamwork = 0.2f;
+    public new static float cowardice = 1;
+    public new static float aggro = 0.5f;
     public FleeState(AIController controller) : base(controller){}
     
-    public override int stateType { get; protected set; } = 5;
+    public override int stateType { get; protected set; } = 4;
 
-    public AIStateMachine.AIState StateType
+    public new AIStateMachine.AIState StateType
     {
         get { return (AIStateMachine.AIState)stateType; }
     }
@@ -25,7 +25,10 @@ public class FleeState : BaseAIState
     public override void Execute()
     {
         //negate movement vector toward player, once reached distance allow statechange
-        Debug.Log("Executing Idle State");
+
+        verticalInput = -.3f;
+
+        //Debug.Log("Executing Idle State");
     }
     
     public override void Exit()
